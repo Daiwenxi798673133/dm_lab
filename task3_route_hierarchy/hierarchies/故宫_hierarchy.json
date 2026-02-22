@@ -1,0 +1,193 @@
+{
+  "parsed": {
+    "scenic_spot": "故宫",
+    "route_format": "numbered_list",
+    "total_pois": 17,
+    "pois": [
+      "午门",
+      "午门",
+      "武英殿",
+      "文华殿",
+      "太和门",
+      "太和殿",
+      "中和殿",
+      "保和殿",
+      "乾清宫",
+      "交泰殿",
+      "坤宁宫",
+      "养心殿",
+      "西六宫区",
+      "御花园",
+      "东六宫区",
+      "奉先殿",
+      "宁寿宫区",
+      "神武门"
+    ],
+    "routes": [
+      {
+        "sequence": 1,
+        "poi": "午门",
+        "alias": null,
+        "full_text": "午门"
+      },
+      {
+        "sequence": 2,
+        "poi": "武英殿",
+        "alias": null,
+        "full_text": "武英殿"
+      },
+      {
+        "sequence": 3,
+        "poi": "文华殿",
+        "alias": "书画馆",
+        "full_text": "文华殿(书画馆)"
+      },
+      {
+        "sequence": 4,
+        "poi": "太和门",
+        "alias": null,
+        "full_text": "太和门"
+      },
+      {
+        "sequence": 5,
+        "poi": "太和殿",
+        "alias": null,
+        "full_text": "太和殿"
+      },
+      {
+        "sequence": 6,
+        "poi": "中和殿",
+        "alias": null,
+        "full_text": "中和殿"
+      },
+      {
+        "sequence": 7,
+        "poi": "保和殿",
+        "alias": null,
+        "full_text": "保和殿"
+      },
+      {
+        "sequence": 8,
+        "poi": "乾清宫",
+        "alias": null,
+        "full_text": "乾清宫"
+      },
+      {
+        "sequence": 9,
+        "poi": "交泰殿",
+        "alias": null,
+        "full_text": "交泰殿"
+      },
+      {
+        "sequence": 10,
+        "poi": "坤宁宫",
+        "alias": null,
+        "full_text": "坤宁宫"
+      },
+      {
+        "sequence": 11,
+        "poi": "养心殿",
+        "alias": null,
+        "full_text": "养心殿"
+      },
+      {
+        "sequence": 12,
+        "poi": "西六宫区",
+        "alias": null,
+        "full_text": "西六宫区"
+      },
+      {
+        "sequence": 13,
+        "poi": "御花园",
+        "alias": null,
+        "full_text": "御花园"
+      },
+      {
+        "sequence": 14,
+        "poi": "东六宫区",
+        "alias": null,
+        "full_text": "东六宫区"
+      },
+      {
+        "sequence": 15,
+        "poi": "奉先殿",
+        "alias": "钟表馆",
+        "full_text": "奉先殿(钟表馆)"
+      },
+      {
+        "sequence": 16,
+        "poi": "宁寿宫区",
+        "alias": "珍宝馆、戏曲馆",
+        "full_text": "宁寿宫区(珍宝馆、戏曲馆)"
+      },
+      {
+        "sequence": 17,
+        "poi": "神武门",
+        "alias": null,
+        "full_text": "神武门"
+      }
+    ]
+  },
+  "hierarchy": {
+    "scenic_spot": "故宫",
+    "structure_type": "sequence_based",
+    "hierarchy": {
+      "游览路线": {
+        "sections": [
+          {
+            "name": "前部（外朝）",
+            "pois": [
+              "午门",
+              "武英殿",
+              "文华殿",
+              "太和门",
+              "太和殿",
+              "中和殿"
+            ]
+          },
+          {
+            "name": "中部（内廷）",
+            "pois": [
+              "保和殿",
+              "乾清宫",
+              "交泰殿",
+              "坤宁宫",
+              "养心殿"
+            ]
+          },
+          {
+            "name": "后部（御花园等）",
+            "pois": [
+              "西六宫区",
+              "御花园",
+              "东六宫区",
+              "奉先殿",
+              "宁寿宫区",
+              "神武门"
+            ]
+          }
+        ],
+        "total_pois": 17,
+        "full_sequence": [
+          "午门",
+          "武英殿",
+          "文华殿",
+          "太和门",
+          "太和殿",
+          "中和殿",
+          "保和殿",
+          "乾清宫",
+          "交泰殿",
+          "坤宁宫",
+          "养心殿",
+          "西六宫区",
+          "御花园",
+          "东六宫区",
+          "奉先殿",
+          "宁寿宫区",
+          "神武门"
+        ]
+      }
+    }
+  }
+}

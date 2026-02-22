@@ -1,0 +1,348 @@
+{
+  "parsed": {
+    "scenic_spot": "九寨沟",
+    "route_format": "structured_time_route",
+    "total_pois": 16,
+    "pois": [
+      "五彩池",
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "沟口",
+      "沟口乘车",
+      "熊猫海",
+      "犀牛海",
+      "盆景滩",
+      "箭竹海",
+      "芳草海",
+      "诺日朗中心站",
+      "诺日朗群海",
+      "镜海",
+      "长海"
+    ],
+    "routes": [
+      {
+        "from_poi": "沟口乘车",
+        "to_poi": "原始森林",
+        "poi": "原始森林",
+        "time_start": "7:00",
+        "time_end": "8:10",
+        "period": "清晨",
+        "transport": "步行",
+        "duration": "",
+        "details": "7:00-8:10 一个小时车程"
+      },
+      {
+        "from_poi": "原始森林",
+        "to_poi": "芳草海",
+        "poi": "芳草海",
+        "time_start": "8:10",
+        "time_end": "9:00",
+        "period": "清晨",
+        "transport": "步行",
+        "duration": "30分钟",
+        "details": "8:10-9:00 步行30分钟,游览时间20分钟"
+      },
+      {
+        "from_poi": "芳草海",
+        "to_poi": "天鹅海",
+        "poi": "天鹅海",
+        "time_start": "9:00",
+        "time_end": "9:15",
+        "period": "上午",
+        "transport": "观光车",
+        "duration": "约5分钟",
+        "details": "9:00-9:15 换乘观光车,约5分钟车程,游览时间10分钟"
+      },
+      {
+        "from_poi": "天鹅海",
+        "to_poi": "箭竹海",
+        "poi": "箭竹海",
+        "time_start": "9:15",
+        "time_end": "9:45",
+        "period": "上午",
+        "transport": "观光车",
+        "duration": "约15分钟",
+        "details": "9:15-9:45 换乘观光车,约15分钟车程,游览时间15分钟"
+      },
+      {
+        "from_poi": "箭竹海",
+        "to_poi": "熊猫海",
+        "poi": "熊猫海",
+        "time_start": "9:45",
+        "time_end": "10:10",
+        "period": "上午",
+        "transport": "观光车",
+        "duration": "约10分钟",
+        "details": "9:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟"
+      },
+      {
+        "from_poi": "熊猫海",
+        "to_poi": "五花海",
+        "poi": "五花海",
+        "time_start": "10:10",
+        "time_end": "10:40",
+        "period": "上午",
+        "transport": "观光车",
+        "duration": "约10分钟",
+        "details": "10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟"
+      },
+      {
+        "from_poi": "五花海",
+        "to_poi": "镜海",
+        "poi": "镜海",
+        "time_start": "10:40",
+        "time_end": "11:10",
+        "period": "上午",
+        "transport": "观光车",
+        "duration": "约10分钟",
+        "details": "10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟"
+      },
+      {
+        "from_poi": "镜海",
+        "to_poi": "诺日朗群海",
+        "poi": "诺日朗群海",
+        "time_start": "11:10",
+        "time_end": "11:25",
+        "period": "中午",
+        "transport": "观光车",
+        "duration": "约5分钟",
+        "details": "11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟"
+      },
+      {
+        "from_poi": "诺日朗群海",
+        "to_poi": "诺日朗中心站",
+        "poi": "诺日朗中心站",
+        "time_start": "11:30",
+        "time_end": "13:30",
+        "period": "中午",
+        "transport": "步行",
+        "duration": "",
+        "details": "11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布"
+      },
+      {
+        "from_poi": "诺日朗中心站",
+        "to_poi": "长海",
+        "poi": "长海",
+        "time_start": "13:30",
+        "time_end": "14:20",
+        "period": "下午",
+        "transport": "观光车",
+        "duration": "约30分钟",
+        "details": "13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 "
+      },
+      {
+        "from_poi": "长海",
+        "to_poi": "五彩池",
+        "poi": "五彩池",
+        "time_start": "14:20",
+        "time_end": "14:50",
+        "period": "下午",
+        "transport": "步行",
+        "duration": "15分钟",
+        "details": "14:20-14:50步行15分钟,游览时间15分钟 "
+      },
+      {
+        "from_poi": "五彩池",
+        "to_poi": "犀牛海",
+        "poi": "犀牛海",
+        "time_start": "14:50",
+        "time_end": "15:40",
+        "period": "下午",
+        "transport": "观光车",
+        "duration": "约30分钟",
+        "details": "14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 "
+      },
+      {
+        "from_poi": "卧龙海",
+        "to_poi": "双龙海",
+        "poi": "双龙海",
+        "time_start": "15:40",
+        "time_end": "17:00",
+        "period": "下午",
+        "transport": "乘车",
+        "duration": "",
+        "details": "15:40-17:00步行+乘车的方式,约1个多小时游览时间"
+      },
+      {
+        "from_poi": "双龙海",
+        "to_poi": "盆景滩",
+        "poi": "盆景滩",
+        "time_start": "17:00",
+        "time_end": "17:20",
+        "period": "傍晚",
+        "transport": "观光车",
+        "duration": "约10分钟",
+        "details": "17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 "
+      },
+      {
+        "from_poi": "盆景滩",
+        "to_poi": "沟口",
+        "poi": "沟口",
+        "time_start": "17:00",
+        "time_end": "17:35",
+        "period": "傍晚",
+        "transport": "观光车",
+        "duration": "约15分钟",
+        "details": "17:00-17:35乘坐观光车,约15分钟车程 "
+      }
+    ]
+  },
+  "hierarchy": {
+    "scenic_spot": "九寨沟",
+    "structure_type": "time_based",
+    "hierarchy": {
+      "清晨": {
+        "time_range": "5:00-9:00",
+        "activities": [
+          {
+            "poi": "原始森林",
+            "time_start": "7:00",
+            "time_end": "8:10",
+            "transport": "步行",
+            "duration": "",
+            "details": "7:00-8:10 一个小时车程"
+          },
+          {
+            "poi": "芳草海",
+            "time_start": "8:10",
+            "time_end": "9:00",
+            "transport": "步行",
+            "duration": "30分钟",
+            "details": "8:10-9:00 步行30分钟,游览时间20分钟"
+          }
+        ],
+        "activity_count": 2
+      },
+      "上午": {
+        "time_range": "9:00-11:00",
+        "activities": [
+          {
+            "poi": "天鹅海",
+            "time_start": "9:00",
+            "time_end": "9:15",
+            "transport": "观光车",
+            "duration": "约5分钟",
+            "details": "9:00-9:15 换乘观光车,约5分钟车程,游览时间10分钟"
+          },
+          {
+            "poi": "箭竹海",
+            "time_start": "9:15",
+            "time_end": "9:45",
+            "transport": "观光车",
+            "duration": "约15分钟",
+            "details": "9:15-9:45 换乘观光车,约15分钟车程,游览时间15分钟"
+          },
+          {
+            "poi": "熊猫海",
+            "time_start": "9:45",
+            "time_end": "10:10",
+            "transport": "观光车",
+            "duration": "约10分钟",
+            "details": "9:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟"
+          },
+          {
+            "poi": "五花海",
+            "time_start": "10:10",
+            "time_end": "10:40",
+            "transport": "观光车",
+            "duration": "约10分钟",
+            "details": "10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟"
+          },
+          {
+            "poi": "镜海",
+            "time_start": "10:40",
+            "time_end": "11:10",
+            "transport": "观光车",
+            "duration": "约10分钟",
+            "details": "10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟"
+          }
+        ],
+        "activity_count": 5
+      },
+      "中午": {
+        "time_range": "11:00-13:00",
+        "activities": [
+          {
+            "poi": "诺日朗群海",
+            "time_start": "11:10",
+            "time_end": "11:25",
+            "transport": "观光车",
+            "duration": "约5分钟",
+            "details": "11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟"
+          },
+          {
+            "poi": "诺日朗中心站",
+            "time_start": "11:30",
+            "time_end": "13:30",
+            "transport": "步行",
+            "duration": "",
+            "details": "11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布"
+          }
+        ],
+        "activity_count": 2
+      },
+      "下午": {
+        "time_range": "13:00-17:00",
+        "activities": [
+          {
+            "poi": "长海",
+            "time_start": "13:30",
+            "time_end": "14:20",
+            "transport": "观光车",
+            "duration": "约30分钟",
+            "details": "13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 "
+          },
+          {
+            "poi": "五彩池",
+            "time_start": "14:20",
+            "time_end": "14:50",
+            "transport": "步行",
+            "duration": "15分钟",
+            "details": "14:20-14:50步行15分钟,游览时间15分钟 "
+          },
+          {
+            "poi": "犀牛海",
+            "time_start": "14:50",
+            "time_end": "15:40",
+            "transport": "观光车",
+            "duration": "约30分钟",
+            "details": "14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 "
+          },
+          {
+            "poi": "双龙海",
+            "time_start": "15:40",
+            "time_end": "17:00",
+            "transport": "乘车",
+            "duration": "",
+            "details": "15:40-17:00步行+乘车的方式,约1个多小时游览时间"
+          }
+        ],
+        "activity_count": 4
+      },
+      "傍晚": {
+        "time_range": "17:00-19:00",
+        "activities": [
+          {
+            "poi": "盆景滩",
+            "time_start": "17:00",
+            "time_end": "17:20",
+            "transport": "观光车",
+            "duration": "约10分钟",
+            "details": "17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 "
+          },
+          {
+            "poi": "沟口",
+            "time_start": "17:00",
+            "time_end": "17:35",
+            "transport": "观光车",
+            "duration": "约15分钟",
+            "details": "17:00-17:35乘坐观光车,约15分钟车程 "
+          }
+        ],
+        "activity_count": 2
+      }
+    }
+  }
+}

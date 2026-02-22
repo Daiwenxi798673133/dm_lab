@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-02-22 12:50:55.938335",
+  "total_spots": 3,
+  "reports": [
+    {
+      "scenic_spot": "九寨沟",
+      "coverage_comparison": {
+        "official_poi_count": 16,
+        "visitor_poi_count": 8,
+        "overlap_count": 6,
+        "overlap_pois": [
+          "五彩池",
+          "五花海",
+          "原始森林",
+          "诺日朗中心站",
+          "镜海",
+          "长海"
+        ],
+        "official_only_pois": [
+          "双龙海",
+          "天鹅海",
+          "沟口",
+          "沟口乘车",
+          "熊猫海",
+          "犀牛海",
+          "盆景滩",
+          "箭竹海",
+          "芳草海",
+          "诺日朗群海"
+        ],
+        "visitor_only_pois": [
+          "树正寨",
+          "树正瀑布"
+        ],
+        "jaccard_similarity": 0.333,
+        "strict_overlap_count": 6,
+        "strict_jaccard_similarity": 0.333,
+        "normalization_gain": 0,
+        "normalization_delta": 0.0,
+        "raw_visitor_poi_count": 19,
+        "cleaned_unique_count": 8,
+        "valid_extra_poi_count": 2,
+        "valid_extra_visitor_pois": [
+          "树正寨",
+          "树正瀑布"
+        ],
+        "unmatched_poi_count": 0,
+        "unmatched_visitor_pois": [],
+        "filtered_count": 11
+      },
+      "route_similarity": {
+        "official_sequence": [
+          "沟口乘车",
+          "原始森林",
+          "芳草海",
+          "天鹅海",
+          "箭竹海",
+          "熊猫海",
+          "五花海",
+          "镜海",
+          "诺日朗群海",
+          "诺日朗中心站",
+          "长海",
+          "五彩池",
+          "犀牛海",
+          "双龙海",
+          "盆景滩",
+          "沟口"
+        ],
+        "visitor_sequence": [
+          "五花海",
+          "长海",
+          "五彩池",
+          "原始森林",
+          "镜海",
+          "树正寨",
+          "诺日朗中心站",
+          "树正瀑布"
+        ],
+        "official_sequence_source": "explicit_route_sequence",
+        "lcs_length": 3,
+        "set_similarity": 0.333,
+        "sequence_similarity": 0.188,
+        "combined_similarity": 0.246,
+        "sequence_confidence": "medium_or_high",
+        "sequence_confidence_note": "游客POI序列保留了部分顺序信息"
+      },
+      "time_distribution": {
+        "official_distribution": {
+          "清晨": 2,
+          "上午": 5,
+          "中午": 2,
+          "下午": 4,
+          "傍晚": 2
+        },
+        "visitor_distribution": {
+          "下午": 1,
+          "清晨": 1
+        },
+        "visitor_day_distribution": {
+          "第一天": 1
+        },
+        "visitor_other_time_labels": {},
+        "official_total": 15,
+        "visitor_total": 2,
+        "distribution_similarity": 0.4,
+        "official_distribution_method": "explicit_time_from_official_route"
+      },
+      "transport_usage": {
+        "official_transport": {
+          "步行": 4,
+          "观光车": 10,
+          "乘车": 1
+        },
+        "visitor_transport": {
+          "步行": 2,
+          "坐车": 2,
+          "徒步": 2,
+          "观光车": 1,
+          "公交": 1
+        }
+      },
+      "summary": {
+        "coverage_level": "差异较大",
+        "route_similarity_level": "差异较大",
+        "time_distribution_level": "部分一致",
+        "key_findings": [
+          "游客未覆盖 10 个官方推荐景点"
+        ]
+      }
+    },
+    {
+      "scenic_spot": "故宫",
+      "coverage_comparison": {
+        "official_poi_count": 17,
+        "visitor_poi_count": 17,
+        "overlap_count": 17,
+        "overlap_pois": [
+          "东六宫区",
+          "中和殿",
+          "乾清宫",
+          "交泰殿",
+          "保和殿",
+          "养心殿",
+          "午门",
+          "坤宁宫",
+          "太和殿",
+          "太和门",
+          "奉先殿",
+          "宁寿宫区",
+          "御花园",
+          "文华殿",
+          "武英殿",
+          "神武门",
+          "西六宫区"
+        ],
+        "official_only_pois": [],
+        "visitor_only_pois": [],
+        "jaccard_similarity": 1.0,
+        "strict_overlap_count": 16,
+        "strict_jaccard_similarity": 0.842,
+        "normalization_gain": 1,
+        "normalization_delta": 0.158,
+        "raw_visitor_poi_count": 62,
+        "cleaned_unique_count": 17,
+        "valid_extra_poi_count": 0,
+        "valid_extra_visitor_pois": [],
+        "unmatched_poi_count": 0,
+        "unmatched_visitor_pois": [],
+        "filtered_count": 45
+      },
+      "route_similarity": {
+        "official_sequence": [
+          "午门",
+          "武英殿",
+          "文华殿",
+          "太和门",
+          "太和殿",
+          "中和殿",
+          "保和殿",
+          "乾清宫",
+          "交泰殿",
+          "坤宁宫",
+          "养心殿",
+          "西六宫区",
+          "御花园",
+          "东六宫区",
+          "奉先殿",
+          "宁寿宫区",
+          "神武门"
+        ],
+        "visitor_sequence": [
+          "太和殿",
+          "中和殿",
+          "保和殿",
+          "养心殿",
+          "西六宫区",
+          "御花园",
+          "东六宫区",
+          "坤宁宫",
+          "午门",
+          "太和门",
+          "乾清宫",
+          "交泰殿",
+          "文华殿",
+          "奉先殿",
+          "神武门",
+          "宁寿宫区",
+          "武英殿"
+        ],
+        "official_sequence_source": "numbered_sequence",
+        "lcs_length": 9,
+        "set_similarity": 1.0,
+        "sequence_similarity": 0.529,
+        "combined_similarity": 0.718,
+        "sequence_confidence": "medium_or_high",
+        "sequence_confidence_note": "游客POI序列保留了部分顺序信息"
+      },
+      "time_distribution": {
+        "official_distribution": {
+          "上午": 5,
+          "中午": 5,
+          "下午": 5,
+          "傍晚": 2
+        },
+        "visitor_distribution": {
+          "下午": 1,
+          "上午": 2,
+          "晚上": 1,
+          "清晨": 1
+        },
+        "visitor_day_distribution": {},
+        "visitor_other_time_labels": {},
+        "official_total": 17,
+        "visitor_total": 5,
+        "distribution_similarity": 0.494,
+        "official_distribution_method": "inferred_from_numbered_sequence"
+      },
+      "transport_usage": {
+        "official_transport": {},
+        "visitor_transport": {
+          "公交": 1,
+          "电车": 1,
+          "地铁": 1
+        }
+      },
+      "summary": {
+        "coverage_level": "高度一致",
+        "route_similarity_level": "高度一致",
+        "time_distribution_level": "部分一致",
+        "key_findings": [
+          "游客路线与官方路线整体一致"
+        ]
+      }
+    },
+    {
+      "scenic_spot": "黄山",
+      "coverage_comparison": {
+        "official_poi_count": 12,
+        "visitor_poi_count": 11,
+        "overlap_count": 11,
+        "overlap_pois": [
+          "云谷寺景观区",
+          "光明顶",
+          "北海中路",
+          "天海景观区",
+          "始信峰景观区",
+          "慈光阁景观区",
+          "排云亭景观区",
+          "松谷庵景观区",
+          "狮子峰景观区",
+          "玉屏楼景观区",
+          "黄山南大门"
+        ],
+        "official_only_pois": [
+          "黄山北大门"
+        ],
+        "visitor_only_pois": [],
+        "jaccard_similarity": 0.917,
+        "strict_overlap_count": 2,
+        "strict_jaccard_similarity": 0.077,
+        "normalization_gain": 9,
+        "normalization_delta": 0.84,
+        "raw_visitor_poi_count": 50,
+        "cleaned_unique_count": 11,
+        "valid_extra_poi_count": 0,
+        "valid_extra_visitor_pois": [],
+        "unmatched_poi_count": 0,
+        "unmatched_visitor_pois": [],
+        "filtered_count": 39
+      },
+      "route_similarity": {
+        "official_sequence": [
+          "黄山南大门",
+          "云谷寺景观区",
+          "始信峰景观区",
+          "狮子峰景观区",
+          "排云亭景观区",
+          "天海景观区",
+          "光明顶",
+          "北海中路"
+        ],
+        "visitor_sequence": [
+          "玉屏楼景观区",
+          "天海景观区",
+          "北海中路",
+          "松谷庵景观区",
+          "云谷寺景观区",
+          "黄山南大门",
+          "慈光阁景观区",
+          "光明顶",
+          "狮子峰景观区",
+          "始信峰景观区",
+          "排云亭景观区"
+        ],
+        "official_sequence_source": "representative_longest_route",
+        "lcs_length": 3,
+        "set_similarity": 0.727,
+        "sequence_similarity": 0.375,
+        "combined_similarity": 0.516,
+        "sequence_confidence": "medium_or_high",
+        "sequence_confidence_note": "游客POI序列保留了部分顺序信息"
+      },
+      "time_distribution": {
+        "official_distribution": {
+          "上午": 2,
+          "中午": 2,
+          "下午": 3,
+          "傍晚": 1
+        },
+        "visitor_distribution": {
+          "中午": 1,
+          "下午": 1
+        },
+        "visitor_day_distribution": {
+          "第二天": 1,
+          "第一天": 1,
+          "第三天": 1
+        },
+        "visitor_other_time_labels": {},
+        "official_total": 8,
+        "visitor_total": 2,
+        "distribution_similarity": 0.625,
+        "official_distribution_method": "inferred_from_representative_longest_route"
+      },
+      "transport_usage": {
+        "official_transport": {},
+        "visitor_transport": {
+          "坐车": 2,
+          "换乘": 2,
+          "步行": 2,
+          "缆车": 2,
+          "乘车": 2,
+          "索道": 1,
+          "1.5公里": 1,
+          "40公里": 1,
+          "6公里": 1,
+          "25分钟路": 1,
+          "16公里": 1,
+          "51公里": 1
+        }
+      },
+      "summary": {
+        "coverage_level": "高度一致",
+        "route_similarity_level": "部分一致",
+        "time_distribution_level": "部分一致",
+        "key_findings": [
+          "游客未覆盖 1 个官方推荐景点",
+          "标准化映射对覆盖度提升较大，需警惕口径过宽带来的高估风险"
+        ]
+      }
+    }
+  ]
+}
