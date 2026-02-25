@@ -1,0 +1,909 @@
+{
+  "condition_analysis": {
+    "by_type": {
+      "time": {
+        "count": 4,
+        "conditions": {
+          "时间条件: 早上进沟": {
+            "count": 1,
+            "advice_list": [
+              "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片"
+            ]
+          },
+          "时间条件: 提前7天": {
+            "count": 1,
+            "advice_list": [
+              "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票"
+            ]
+          },
+          "时间条件: 尽早入场": {
+            "count": 1,
+            "advice_list": [
+              "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间"
+            ]
+          },
+          "时间条件: 提前预订": {
+            "count": 1,
+            "advice_list": [
+              "可以提前预订"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "时间条件: 早上进沟",
+            "advice": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片",
+            "sentence": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片."
+          },
+          {
+            "condition": "时间条件: 提前7天",
+            "advice": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票",
+            "sentence": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票."
+          },
+          {
+            "condition": "时间条件: 尽早入场",
+            "advice": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+            "sentence": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间."
+          }
+        ]
+      },
+      "other": {
+        "count": 4,
+        "conditions": {
+          "其他条件: 七、餐饮与购物-": {
+            "count": 1,
+            "advice_list": [
+              "建议自带干粮"
+            ]
+          },
+          "其他条件: 时抢不到": {
+            "count": 1,
+            "advice_list": [
+              "可以抢"
+            ]
+          },
+          "其他条件: 看珍宝馆、钟表馆和其他的特展": {
+            "count": 1,
+            "advice_list": [
+              "可以进去之后在对应的馆门口买票"
+            ]
+          },
+          "其他条件: 黄山风景区北麓": {
+            "count": 1,
+            "advice_list": [
+              "可以乘坐太平缆车上山"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "其他条件: 七、餐饮与购物-",
+            "advice": "建议自带干粮",
+            "sentence": "七、餐饮与购物 - 建议自带干粮."
+          },
+          {
+            "condition": "其他条件: 时抢不到",
+            "advice": "可以抢",
+            "sentence": "一次性放完票,如果当时抢不到,一般也没有余票可以抢."
+          },
+          {
+            "condition": "其他条件: 看珍宝馆、钟表馆和其他的特展",
+            "advice": "可以进去之后在对应的馆门口买票",
+            "sentence": "只需抢到入场的60块钱门票就好,想看珍宝馆、钟表馆和其他的特展,可以进去之后在对应的馆门口买票."
+          }
+        ]
+      },
+      "route": {
+        "count": 3,
+        "conditions": {
+          "路线条件: 路线": {
+            "count": 1,
+            "advice_list": [
+              "推荐路线:进门坐车直接到原始森林,然后一路向下游玩"
+            ]
+          },
+          "路线条件: 游览顺序是先高后低": {
+            "count": 1,
+            "advice_list": [
+              "建议游览顺序是先高后低,利用好景区观光车"
+            ]
+          },
+          "路线条件: 四、游玩路线": {
+            "count": 1,
+            "advice_list": [
+              "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "路线条件: 路线",
+            "advice": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+            "sentence": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩."
+          },
+          {
+            "condition": "路线条件: 游览顺序是先高后低",
+            "advice": "建议游览顺序是先高后低,利用好景区观光车",
+            "sentence": "建议游览顺序是先高后低,利用好景区观光车."
+          },
+          {
+            "condition": "路线条件: 四、游玩路线",
+            "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+            "sentence": "四、游玩路线推荐 - 2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门."
+          }
+        ]
+      },
+      "transport": {
+        "count": 3,
+        "conditions": {
+          "交通条件: 诺日朗中心站中转": {
+            "count": 1,
+            "advice_list": [
+              "可以稍作休息"
+            ]
+          },
+          "交通条件: 三、交通出行指南-公共交通": {
+            "count": 1,
+            "advice_list": [
+              "推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车"
+            ]
+          },
+          "交通条件: 第一次玩从景区南大门云谷寺和乘索道上": {
+            "count": 1,
+            "advice_list": [
+              "建议第一次玩从景区南大门云谷寺和乘索道上,省体力"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "交通条件: 诺日朗中心站中转",
+            "advice": "可以稍作休息",
+            "sentence": "在诺日朗中心站中转时,可以稍作休息."
+          },
+          {
+            "condition": "交通条件: 三、交通出行指南-公共交通",
+            "advice": "推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车",
+            "sentence": "三、交通出行指南 - 地铁:推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车."
+          },
+          {
+            "condition": "交通条件: 第一次玩从景区南大门云谷寺和乘索道上",
+            "advice": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+            "sentence": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力."
+          }
+        ]
+      },
+      "ticketing": {
+        "count": 1,
+        "conditions": {
+          "票务条件: 珍宝馆和钟表馆门票各10元": {
+            "count": 1,
+            "advice_list": [
+              "建议一并购买"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "票务条件: 珍宝馆和钟表馆门票各10元",
+            "advice": "建议一并购买",
+            "sentence": "珍宝馆和钟表馆门票各10元,强烈建议一并购买."
+          }
+        ]
+      },
+      "time_duration": {
+        "count": 1,
+        "conditions": {
+          "时长条件: 一天难尽览": {
+            "count": 1,
+            "advice_list": [
+              "建议规划时间并尽早入场"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "时长条件: 一天难尽览",
+            "advice": "建议规划时间并尽早入场",
+            "sentence": "故宫多数地方未开放,如三大殿仅能外观无法入内参观,但开放区域逛完仍费时,一天难尽览,因此建议规划时间并尽早入场."
+          }
+        ]
+      },
+      "equipment": {
+        "count": 1,
+        "conditions": {
+          "装备条件: 最普通的辅助装备才3元": {
+            "count": 1,
+            "advice_list": [
+              "建议买这种就可以了"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "装备条件: 最普通的辅助装备才3元",
+            "advice": "建议买这种就可以了",
+            "sentence": "最普通的登山杖才3元,建议买这种就可以了."
+          }
+        ]
+      },
+      "weather": {
+        "count": 1,
+        "conditions": {
+          "天气条件: 光明顶雨天了": {
+            "count": 1,
+            "advice_list": [
+              "不要去,因为雾气太大会导致景观看不见"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "天气条件: 光明顶雨天了",
+            "advice": "不要去,因为雾气太大会导致景观看不见",
+            "sentence": "如果是光明顶下雨了,即使是下小雨也不要去,因为雾气太大会导致景观看不见."
+          }
+        ]
+      },
+      "visitor_type": {
+        "count": 1,
+        "conditions": {
+          "游客类型: 不是黄山老登山友": {
+            "count": 1,
+            "advice_list": [
+              "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事"
+            ]
+          }
+        },
+        "advice_examples": [
+          {
+            "condition": "游客类型: 不是黄山老登山友",
+            "advice": "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+            "sentence": "关于跟团还是个人游: 如果不是黄山老登山友,建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事."
+          }
+        ]
+      }
+    },
+    "by_scenic_spot": {
+      "九寨沟": {
+        "total_advice": 4,
+        "condition_types": {
+          "time": 1,
+          "route": 2,
+          "transport": 1
+        },
+        "top_conditions": [
+          [
+            "时间条件: 早上进沟",
+            1
+          ],
+          [
+            "路线条件: 路线",
+            1
+          ],
+          [
+            "路线条件: 游览顺序是先高后低",
+            1
+          ],
+          [
+            "交通条件: 诺日朗中心站中转",
+            1
+          ]
+        ]
+      },
+      "故宫": {
+        "total_advice": 9,
+        "condition_types": {
+          "ticketing": 1,
+          "time": 2,
+          "transport": 1,
+          "route": 1,
+          "other": 3,
+          "time_duration": 1
+        },
+        "top_conditions": [
+          [
+            "票务条件: 珍宝馆和钟表馆门票各10元",
+            1
+          ],
+          [
+            "时间条件: 提前7天",
+            1
+          ],
+          [
+            "交通条件: 三、交通出行指南-公共交通",
+            1
+          ],
+          [
+            "路线条件: 四、游玩路线",
+            1
+          ],
+          [
+            "其他条件: 七、餐饮与购物-",
+            1
+          ],
+          [
+            "其他条件: 时抢不到",
+            1
+          ],
+          [
+            "其他条件: 看珍宝馆、钟表馆和其他的特展",
+            1
+          ],
+          [
+            "时间条件: 尽早入场",
+            1
+          ],
+          [
+            "时长条件: 一天难尽览",
+            1
+          ]
+        ]
+      },
+      "黄山": {
+        "total_advice": 6,
+        "condition_types": {
+          "transport": 1,
+          "equipment": 1,
+          "weather": 1,
+          "visitor_type": 1,
+          "time": 1,
+          "other": 1
+        },
+        "top_conditions": [
+          [
+            "交通条件: 第一次玩从景区南大门云谷寺和乘索道上",
+            1
+          ],
+          [
+            "装备条件: 最普通的辅助装备才3元",
+            1
+          ],
+          [
+            "天气条件: 光明顶雨天了",
+            1
+          ],
+          [
+            "游客类型: 不是黄山老登山友",
+            1
+          ],
+          [
+            "时间条件: 提前预订",
+            1
+          ],
+          [
+            "其他条件: 黄山风景区北麓",
+            1
+          ]
+        ]
+      }
+    },
+    "pattern_distribution": {
+      "fallback": {
+        "count": 14,
+        "condition_types": {
+          "time": 4,
+          "route": 3,
+          "ticketing": 1,
+          "transport": 2,
+          "other": 2,
+          "time_duration": 1,
+          "equipment": 1
+        },
+        "examples": [
+          {
+            "condition": "早起进沟",
+            "advice": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片",
+            "sentence": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片."
+          },
+          {
+            "condition": "路线",
+            "advice": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+            "sentence": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩."
+          },
+          {
+            "condition": "游览顺序是先高后低",
+            "advice": "建议游览顺序是先高后低,利用好景区观光车",
+            "sentence": "建议游览顺序是先高后低,利用好景区观光车."
+          }
+        ]
+      },
+      "if_then": {
+        "count": 2,
+        "condition_types": {
+          "other": 1,
+          "visitor_type": 1
+        },
+        "examples": [
+          {
+            "condition": "当时抢不到",
+            "advice": "可以抢",
+            "sentence": "一次性放完票,如果当时抢不到,一般也没有余票可以抢."
+          },
+          {
+            "condition": "不是黄山老登山友",
+            "advice": "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+            "sentence": "关于跟团还是个人游: 如果不是黄山老登山友,建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事."
+          }
+        ]
+      },
+      "condition_suffix_then": {
+        "count": 1,
+        "condition_types": {
+          "transport": 1
+        },
+        "examples": [
+          {
+            "condition": "诺日朗中心站中转",
+            "advice": "可以稍作休息",
+            "sentence": "在诺日朗中心站中转时,可以稍作休息."
+          }
+        ]
+      },
+      "desire_then": {
+        "count": 1,
+        "condition_types": {
+          "other": 1
+        },
+        "examples": [
+          {
+            "condition": "看珍宝馆、钟表馆和其他的特展",
+            "advice": "可以进去之后在对应的馆门口买票",
+            "sentence": "只需抢到入场的60块钱门票就好,想看珍宝馆、钟表馆和其他的特展,可以进去之后在对应的馆门口买票."
+          }
+        ]
+      },
+      "if_not_then": {
+        "count": 1,
+        "condition_types": {
+          "weather": 1
+        },
+        "examples": [
+          {
+            "condition": "光明顶下雨了",
+            "advice": "不要去,因为雾气太大会导致景观看不见",
+            "sentence": "如果是光明顶下雨了,即使是下小雨也不要去,因为雾气太大会导致景观看不见."
+          }
+        ]
+      }
+    }
+  },
+  "visitor_type_analysis": {
+    "by_type": {
+      "general": {
+        "count": 9,
+        "common_conditions": [
+          "路线条件: 路线",
+          "路线条件: 游览顺序是先高后低",
+          "交通条件: 诺日朗中心站中转",
+          "票务条件: 珍宝馆和钟表馆门票各10元",
+          "时间条件: 提前7天",
+          "交通条件: 三、交通出行指南-公共交通",
+          "路线条件: 四、游玩路线",
+          "其他条件: 七、餐饮与购物-",
+          "其他条件: 黄山风景区北麓"
+        ],
+        "common_advices": [
+          "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+          "建议游览顺序是先高后低,利用好景区观光车",
+          "可以稍作休息",
+          "建议一并购买",
+          "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票",
+          "推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车",
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+          "建议自带干粮",
+          "可以乘坐太平缆车上山"
+        ],
+        "condition_type_distribution": {
+          "route": 3,
+          "transport": 2,
+          "ticketing": 1,
+          "time": 1,
+          "other": 2
+        },
+        "scenic_spot_distribution": {
+          "九寨沟": 3,
+          "故宫": 5,
+          "黄山": 1
+        },
+        "examples": [
+          {
+            "condition": "路线条件: 路线",
+            "advice": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+            "sentence": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩."
+          },
+          {
+            "condition": "路线条件: 游览顺序是先高后低",
+            "advice": "建议游览顺序是先高后低,利用好景区观光车",
+            "sentence": "建议游览顺序是先高后低,利用好景区观光车."
+          },
+          {
+            "condition": "交通条件: 诺日朗中心站中转",
+            "advice": "可以稍作休息",
+            "sentence": "在诺日朗中心站中转时,可以稍作休息."
+          },
+          {
+            "condition": "票务条件: 珍宝馆和钟表馆门票各10元",
+            "advice": "建议一并购买",
+            "sentence": "珍宝馆和钟表馆门票各10元,强烈建议一并购买."
+          },
+          {
+            "condition": "时间条件: 提前7天",
+            "advice": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票",
+            "sentence": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票."
+          }
+        ]
+      },
+      "experienced": {
+        "count": 8,
+        "common_conditions": [
+          "其他条件: 时抢不到",
+          "其他条件: 看珍宝馆、钟表馆和其他的特展",
+          "时间条件: 尽早入场",
+          "时长条件: 一天难尽览",
+          "交通条件: 第一次玩从景区南大门云谷寺和乘索道上",
+          "装备条件: 最普通的辅助装备才3元",
+          "天气条件: 光明顶雨天了",
+          "游客类型: 不是黄山老登山友"
+        ],
+        "common_advices": [
+          "可以抢",
+          "可以进去之后在对应的馆门口买票",
+          "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+          "建议规划时间并尽早入场",
+          "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+          "建议买这种就可以了",
+          "不要去,因为雾气太大会导致景观看不见",
+          "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事"
+        ],
+        "condition_type_distribution": {
+          "other": 2,
+          "time": 1,
+          "time_duration": 1,
+          "transport": 1,
+          "equipment": 1,
+          "weather": 1,
+          "visitor_type": 1
+        },
+        "scenic_spot_distribution": {
+          "故宫": 4,
+          "黄山": 4
+        },
+        "examples": [
+          {
+            "condition": "其他条件: 时抢不到",
+            "advice": "可以抢",
+            "sentence": "一次性放完票,如果当时抢不到,一般也没有余票可以抢."
+          },
+          {
+            "condition": "其他条件: 看珍宝馆、钟表馆和其他的特展",
+            "advice": "可以进去之后在对应的馆门口买票",
+            "sentence": "只需抢到入场的60块钱门票就好,想看珍宝馆、钟表馆和其他的特展,可以进去之后在对应的馆门口买票."
+          },
+          {
+            "condition": "时间条件: 尽早入场",
+            "advice": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+            "sentence": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间."
+          },
+          {
+            "condition": "时长条件: 一天难尽览",
+            "advice": "建议规划时间并尽早入场",
+            "sentence": "故宫多数地方未开放,如三大殿仅能外观无法入内参观,但开放区域逛完仍费时,一天难尽览,因此建议规划时间并尽早入场."
+          },
+          {
+            "condition": "交通条件: 第一次玩从景区南大门云谷寺和乘索道上",
+            "advice": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+            "sentence": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力."
+          }
+        ]
+      },
+      "photographer": {
+        "count": 2,
+        "common_conditions": [
+          "时间条件: 早上进沟",
+          "时间条件: 提前预订"
+        ],
+        "common_advices": [
+          "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片",
+          "可以提前预订"
+        ],
+        "condition_type_distribution": {
+          "time": 2
+        },
+        "scenic_spot_distribution": {
+          "九寨沟": 1,
+          "黄山": 1
+        },
+        "examples": [
+          {
+            "condition": "时间条件: 早上进沟",
+            "advice": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片",
+            "sentence": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片."
+          },
+          {
+            "condition": "时间条件: 提前预订",
+            "advice": "可以提前预订",
+            "sentence": "关于住宿: 汤口镇住宿:(山下) 住宿选择很多,可以提前预订."
+          }
+        ]
+      },
+      "family": {
+        "count": 0,
+        "common_conditions": [],
+        "common_advices": [],
+        "condition_type_distribution": {},
+        "scenic_spot_distribution": {},
+        "examples": []
+      },
+      "elderly": {
+        "count": 0,
+        "common_conditions": [],
+        "common_advices": [],
+        "condition_type_distribution": {},
+        "scenic_spot_distribution": {},
+        "examples": []
+      },
+      "couple": {
+        "count": 0,
+        "common_conditions": [],
+        "common_advices": [],
+        "condition_type_distribution": {},
+        "scenic_spot_distribution": {},
+        "examples": []
+      }
+    },
+    "comparison": {
+      "pairwise_comparisons": {
+        "family_vs_elderly": {
+          "type1": "family",
+          "type2": "elderly",
+          "shared_advice": [],
+          "unique_to_type1": [],
+          "unique_to_type2": []
+        },
+        "family_vs_couple": {
+          "type1": "family",
+          "type2": "couple",
+          "shared_advice": [],
+          "unique_to_type1": [],
+          "unique_to_type2": []
+        },
+        "family_vs_experienced": {
+          "type1": "family",
+          "type2": "experienced",
+          "shared_advice": [],
+          "unique_to_type1": [],
+          "unique_to_type2": [
+            "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+            "建议规划时间并尽早入场",
+            "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+            "不要去,因为雾气太大会导致景观看不见",
+            "可以抢",
+            "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+            "建议买这种就可以了",
+            "可以进去之后在对应的馆门口买票"
+          ]
+        },
+        "elderly_vs_couple": {
+          "type1": "elderly",
+          "type2": "couple",
+          "shared_advice": [],
+          "unique_to_type1": [],
+          "unique_to_type2": []
+        },
+        "elderly_vs_experienced": {
+          "type1": "elderly",
+          "type2": "experienced",
+          "shared_advice": [],
+          "unique_to_type1": [],
+          "unique_to_type2": [
+            "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+            "建议规划时间并尽早入场",
+            "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+            "不要去,因为雾气太大会导致景观看不见",
+            "可以抢",
+            "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+            "建议买这种就可以了",
+            "可以进去之后在对应的馆门口买票"
+          ]
+        },
+        "couple_vs_experienced": {
+          "type1": "couple",
+          "type2": "experienced",
+          "shared_advice": [],
+          "unique_to_type1": [],
+          "unique_to_type2": [
+            "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+            "建议规划时间并尽早入场",
+            "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+            "不要去,因为雾气太大会导致景观看不见",
+            "可以抢",
+            "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+            "建议买这种就可以了",
+            "可以进去之后在对应的馆门口买票"
+          ]
+        }
+      },
+      "condition_type_comparison": {
+        "equipment": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 1,
+            "percentage": 12.5
+          }
+        },
+        "other": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 2,
+            "percentage": 25.0
+          }
+        },
+        "route": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 0,
+            "percentage": 0.0
+          }
+        },
+        "ticketing": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 0,
+            "percentage": 0.0
+          }
+        },
+        "time": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 1,
+            "percentage": 12.5
+          }
+        },
+        "time_duration": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 1,
+            "percentage": 12.5
+          }
+        },
+        "transport": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 1,
+            "percentage": 12.5
+          }
+        },
+        "visitor_type": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 1,
+            "percentage": 12.5
+          }
+        },
+        "weather": {
+          "family": {
+            "count": 0,
+            "percentage": 0
+          },
+          "elderly": {
+            "count": 0,
+            "percentage": 0
+          },
+          "couple": {
+            "count": 0,
+            "percentage": 0
+          },
+          "experienced": {
+            "count": 1,
+            "percentage": 12.5
+          }
+        }
+      },
+      "main_types": [
+        "family",
+        "elderly",
+        "couple",
+        "experienced"
+      ]
+    }
+  },
+  "summary": {
+    "total_condition_types": 9,
+    "total_visitor_types": 6,
+    "main_visitor_types": [
+      "family",
+      "elderly",
+      "couple",
+      "experienced"
+    ]
+  }
+}

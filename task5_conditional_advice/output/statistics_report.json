@@ -1,0 +1,38 @@
+{
+  "total_advice": 19,
+  "total_travelogs": 15,
+  "avg_advice_per_travelog": 1.27,
+  "by_condition_type": {
+    "time": 4,
+    "route": 3,
+    "transport": 3,
+    "ticketing": 1,
+    "other": 4,
+    "time_duration": 1,
+    "equipment": 1,
+    "weather": 1,
+    "visitor_type": 1
+  },
+  "by_scenic_spot": {
+    "九寨沟": 4,
+    "故宫": 9,
+    "黄山": 6
+  },
+  "by_visitor_type": {
+    "photographer": 2,
+    "general": 9,
+    "experienced": 8
+  },
+  "pattern_distribution": {
+    "fallback": 14,
+    "condition_suffix_then": 1,
+    "if_then": 2,
+    "desire_then": 1,
+    "if_not_then": 1
+  },
+  "confidence_distribution": {
+    "high": 18,
+    "medium": 1,
+    "low": 0
+  }
+}

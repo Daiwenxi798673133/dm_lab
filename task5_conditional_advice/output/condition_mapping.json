@@ -1,0 +1,514 @@
+{
+  "time": {
+    "时间条件: 早上进沟": {
+      "condition_type": "time",
+      "condition_label": "时间条件",
+      "condition_raw_examples": [
+        "早起进沟"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "九寨沟_travelog_1_adv_0001",
+          "advice_text": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片",
+          "action": "建议大家一定要早起进沟,避开人流高峰,才",
+          "scenic_spot": "九寨沟",
+          "travelog_id": "九寨沟_travelog_1",
+          "confidence": 0.9,
+          "evidence_sentence": "建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片."
+        }
+      ]
+    },
+    "时间条件: 提前7天": {
+      "condition_type": "time",
+      "condition_label": "时间条件",
+      "condition_raw_examples": [
+        "提前7天"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_2_adv_0002",
+          "advice_text": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票",
+          "action": "建议提前7天,每晚20:00准时在官方小",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_2",
+          "confidence": 0.9,
+          "evidence_sentence": "建议提前7天,每晚20:00准时在官方小程序抢票,一个账号最多可抢5张成人票."
+        }
+      ]
+    },
+    "时间条件: 尽早入场": {
+      "condition_type": "time",
+      "condition_label": "时间条件",
+      "condition_raw_examples": [
+        "尽早入场"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_4_adv_0003",
+          "advice_text": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间",
+          "action": "建议尽早入场,因为故宫即使是走马观花逛也",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_4",
+          "confidence": 0.9,
+          "evidence_sentence": "建议尽早入场,因为故宫即使是走马观花逛也是需要一天的时间."
+        }
+      ]
+    },
+    "时间条件: 提前预订": {
+      "condition_type": "time",
+      "condition_label": "时间条件",
+      "condition_raw_examples": [
+        "提前预订"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "可以提前预订",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "黄山_travelog_3_adv_0001",
+          "advice_text": "可以提前预订",
+          "action": "可以提前预订",
+          "scenic_spot": "黄山",
+          "travelog_id": "黄山_travelog_3",
+          "confidence": 0.9,
+          "evidence_sentence": "可以提前预订."
+        }
+      ]
+    }
+  },
+  "route": {
+    "路线条件: 路线": {
+      "condition_type": "route",
+      "condition_label": "路线条件",
+      "condition_raw_examples": [
+        "路线"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "九寨沟_travelog_2_adv_0001",
+          "advice_text": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+          "action": "推荐路线:进门坐车直接到原始森林,然后一",
+          "scenic_spot": "九寨沟",
+          "travelog_id": "九寨沟_travelog_2",
+          "confidence": 0.9,
+          "evidence_sentence": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩."
+        }
+      ]
+    },
+    "路线条件: 游览顺序是先高后低": {
+      "condition_type": "route",
+      "condition_label": "路线条件",
+      "condition_raw_examples": [
+        "游览顺序是先高后低"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议游览顺序是先高后低,利用好景区观光车",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "九寨沟_travelog_4_adv_0001",
+          "advice_text": "建议游览顺序是先高后低,利用好景区观光车",
+          "action": "建议游览顺序是先高后低,利用好景区观光车",
+          "scenic_spot": "九寨沟",
+          "travelog_id": "九寨沟_travelog_4",
+          "confidence": 0.9,
+          "evidence_sentence": "建议游览顺序是先高后低,利用好景区观光车."
+        }
+      ]
+    },
+    "路线条件: 四、游玩路线": {
+      "condition_type": "route",
+      "condition_label": "路线条件",
+      "condition_raw_examples": [
+        "四、游玩路线"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_2_adv_0004",
+          "advice_text": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+          "action": "推荐-2小时快速游路线:午门→太和门→弘",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_2",
+          "confidence": 0.8,
+          "evidence_sentence": "四、游玩路线推荐 - 2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门."
+        }
+      ]
+    }
+  },
+  "transport": {
+    "交通条件: 诺日朗中心站中转": {
+      "condition_type": "transport",
+      "condition_label": "交通条件",
+      "condition_raw_examples": [
+        "诺日朗中心站中转"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "可以稍作休息",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "九寨沟_travelog_4_adv_0002",
+          "advice_text": "可以稍作休息",
+          "action": "可以稍作休息",
+          "scenic_spot": "九寨沟",
+          "travelog_id": "九寨沟_travelog_4",
+          "confidence": 1.0,
+          "evidence_sentence": "在诺日朗中心站中转时,可以稍作休息."
+        }
+      ]
+    },
+    "交通条件: 三、交通出行指南-公共交通": {
+      "condition_type": "transport",
+      "condition_label": "交通条件",
+      "condition_raw_examples": [
+        "三、交通出行指南-地铁"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_2_adv_0003",
+          "advice_text": "推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车",
+          "action": "推荐乘坐地铁1号线,在“天安门东”或“天",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_2",
+          "confidence": 0.9,
+          "evidence_sentence": "三、交通出行指南 - 地铁:推荐乘坐地铁1号线,在“天安门东”或“天安门西”站下车."
+        }
+      ]
+    },
+    "交通条件: 第一次玩从景区南大门云谷寺和乘索道上": {
+      "condition_type": "transport",
+      "condition_label": "交通条件",
+      "condition_raw_examples": [
+        "第一次玩从景区南大门云谷寺和乘索道上"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "黄山_travelog_2_adv_0001",
+          "advice_text": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+          "action": "建议第一次玩从景区南大门云谷寺和乘索道上",
+          "scenic_spot": "黄山",
+          "travelog_id": "黄山_travelog_2",
+          "confidence": 0.85,
+          "evidence_sentence": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力."
+        }
+      ]
+    }
+  },
+  "ticketing": {
+    "票务条件: 珍宝馆和钟表馆门票各10元": {
+      "condition_type": "ticketing",
+      "condition_label": "票务条件",
+      "condition_raw_examples": [
+        "珍宝馆和钟表馆门票各10元"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议一并购买",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_2_adv_0001",
+          "advice_text": "建议一并购买",
+          "action": "建议一并购买",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_2",
+          "confidence": 0.9,
+          "evidence_sentence": "珍宝馆和钟表馆门票各10元,强烈建议一并购买."
+        }
+      ]
+    }
+  },
+  "other": {
+    "其他条件: 七、餐饮与购物-": {
+      "condition_type": "other",
+      "condition_label": "其他条件",
+      "condition_raw_examples": [
+        "七、餐饮与购物-"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议自带干粮",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_2_adv_0005",
+          "advice_text": "建议自带干粮",
+          "action": "建议自带干粮",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_2",
+          "confidence": 0.65,
+          "evidence_sentence": "七、餐饮与购物 - 建议自带干粮."
+        }
+      ]
+    },
+    "其他条件: 时抢不到": {
+      "condition_type": "other",
+      "condition_label": "其他条件",
+      "condition_raw_examples": [
+        "当时抢不到"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "可以抢",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_4_adv_0001",
+          "advice_text": "可以抢",
+          "action": "可以抢",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_4",
+          "confidence": 0.85,
+          "evidence_sentence": "一次性放完票,如果当时抢不到,一般也没有余票可以抢."
+        }
+      ]
+    },
+    "其他条件: 看珍宝馆、钟表馆和其他的特展": {
+      "condition_type": "other",
+      "condition_label": "其他条件",
+      "condition_raw_examples": [
+        "看珍宝馆、钟表馆和其他的特展"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "可以进去之后在对应的馆门口买票",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_4_adv_0002",
+          "advice_text": "可以进去之后在对应的馆门口买票",
+          "action": "可以进去之后在对应的馆门口买票",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_4",
+          "confidence": 0.8,
+          "evidence_sentence": "只需抢到入场的60块钱门票就好,想看珍宝馆、钟表馆和其他的特展,可以进去之后在对应的馆门口买票."
+        }
+      ]
+    },
+    "其他条件: 黄山风景区北麓": {
+      "condition_type": "other",
+      "condition_label": "其他条件",
+      "condition_raw_examples": [
+        "黄山风景区北麓"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "可以乘坐太平缆车上山",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "黄山_travelog_5_adv_0001",
+          "advice_text": "可以乘坐太平缆车上山",
+          "action": "可以乘坐太平缆车上山",
+          "scenic_spot": "黄山",
+          "travelog_id": "黄山_travelog_5",
+          "confidence": 0.7,
+          "evidence_sentence": "黄山区:原为太平县,在黄山风景区北麓,是黄山北大门,从这里可以乘坐太平缆车上山."
+        }
+      ]
+    }
+  },
+  "time_duration": {
+    "时长条件: 一天难尽览": {
+      "condition_type": "time_duration",
+      "condition_label": "时长条件",
+      "condition_raw_examples": [
+        "一天难尽览"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议规划时间并尽早入场",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "故宫_travelog_4_adv_0004",
+          "advice_text": "建议规划时间并尽早入场",
+          "action": "建议规划时间并尽早入场",
+          "scenic_spot": "故宫",
+          "travelog_id": "故宫_travelog_4",
+          "confidence": 0.9,
+          "evidence_sentence": "故宫多数地方未开放,如三大殿仅能外观无法入内参观,但开放区域逛完仍费时,一天难尽览,因此建议规划时间并尽早入场."
+        }
+      ]
+    }
+  },
+  "equipment": {
+    "装备条件: 最普通的辅助装备才3元": {
+      "condition_type": "equipment",
+      "condition_label": "装备条件",
+      "condition_raw_examples": [
+        "最普通的登山杖才3元"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议买这种就可以了",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "黄山_travelog_2_adv_0002",
+          "advice_text": "建议买这种就可以了",
+          "action": "建议买这种就可以了",
+          "scenic_spot": "黄山",
+          "travelog_id": "黄山_travelog_2",
+          "confidence": 0.85,
+          "evidence_sentence": "最普通的登山杖才3元,建议买这种就可以了."
+        }
+      ]
+    }
+  },
+  "weather": {
+    "天气条件: 光明顶雨天了": {
+      "condition_type": "weather",
+      "condition_label": "天气条件",
+      "condition_raw_examples": [
+        "光明顶下雨了"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "不要去,因为雾气太大会导致景观看不见",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "黄山_travelog_2_adv_0003",
+          "advice_text": "不要去,因为雾气太大会导致景观看不见",
+          "action": "不要去,因为雾气太大",
+          "scenic_spot": "黄山",
+          "travelog_id": "黄山_travelog_2",
+          "confidence": 1.0,
+          "evidence_sentence": "如果是光明顶下雨了,即使是下小雨也不要去,因为雾气太大会导致景观看不见."
+        }
+      ]
+    }
+  },
+  "visitor_type": {
+    "游客类型: 不是黄山老登山友": {
+      "condition_type": "visitor_type",
+      "condition_label": "游客类型",
+      "condition_raw_examples": [
+        "不是黄山老登山友"
+      ],
+      "advice_count": 1,
+      "unique_advice_count": 1,
+      "advice_frequency": [
+        {
+          "advice_text": "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+          "count": 1
+        }
+      ],
+      "record_examples": [
+        {
+          "advice_id": "黄山_travelog_2_adv_0004",
+          "advice_text": "建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事",
+          "action": "建议跟团,因为黄山不仅有雄伟壮观的风景,",
+          "scenic_spot": "黄山",
+          "travelog_id": "黄山_travelog_2",
+          "confidence": 1.0,
+          "evidence_sentence": "关于跟团还是个人游: 如果不是黄山老登山友,建议跟团,因为黄山不仅有雄伟壮观的风景,还有很多历史故事."
+        }
+      ]
+    }
+  }
+}
