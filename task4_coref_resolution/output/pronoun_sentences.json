@@ -1,0 +1,662 @@
+{
+  "metadata": {
+    "total_sentences": 28,
+    "scenic_spots": [
+      "九寨沟",
+      "故宫",
+      "黄山"
+    ],
+    "pronoun_types": [
+      "它",
+      "它们",
+      "他",
+      "她",
+      "他们",
+      "她们",
+      "这里",
+      "这里",
+      "那儿",
+      "那里",
+      "此处",
+      "彼处",
+      "该景点",
+      "该景区",
+      "这个景点",
+      "这个景区",
+      "这个地方",
+      "那个景点",
+      "那个景区",
+      "那个地方",
+      "此地",
+      "景区内",
+      "园内",
+      "宫内",
+      "沟内"
+    ]
+  },
+  "sentences": [
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_1_0",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_1",
+      "sentence_index": 0,
+      "sentence": "终于来到了梦寐以求的九寨沟!这次行程安排得非常充实.九寨沟的“丫”字形路线非常清晰.我们第一天选择了右线(日则沟),这里是九寨沟的精华所在,五花海和珍珠滩瀑布简直美得让人窒息,湖水在阳光下呈现出五彩斑斓的颜色,真的像童话世界.接着去了左线(则查洼沟),长海的壮阔和五彩池的精致交相辉映.最后是主干线(树正沟),树正群海和诺日朗瀑布气势磅礴.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 58,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 58,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_1_1",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_1",
+      "sentence_index": 1,
+      "sentence": "感受: 这里的每一处景色都像是一幅画,虽然步行较多,但完全被美景治愈了.建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 4,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 4,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_2_1",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_2",
+      "sentence_index": 1,
+      "sentence": "感受: 这里的山水有一种洗涤心灵的魔力.虽然一天走下来腿很酸,但看到那一抹抹碧蓝的湖水,觉得一切都值了.九寨归来不看水,诚不欺我.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 4,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 4,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_3_1",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_3",
+      "sentence_index": 1,
+      "sentence": "感受: 九寨沟的环保工作做得很好,景区内接驳车很方便.大自然的鬼斧神工在这里体现得淋漓尽致,每一个海子都有它独特的故事和美感.",
+      "pronouns": [
+        {
+          "pronoun": "景区内",
+          "position": 17,
+          "type": "demonstrative_phrase"
+        },
+        {
+          "pronoun": "这里",
+          "position": 36,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 36,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "它",
+          "position": 53,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_4_0",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_4",
+      "sentence_index": 0,
+      "sentence": "深度游览九寨沟.这次重点走访了扎如沟,这里相对幽静,适合徒步.之后回到了经典的日则沟路线,重点打卡了珍珠滩和镜海.建议游览顺序是先高后低,利用好景区观光车.在诺日朗中心站中转时,可以稍作休息.下午重点看树正瀑布和磨坊,那里很有生活气息.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 19,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 19,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "那里",
+          "position": 109,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_5_0",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_5",
+      "sentence_index": 0,
+      "sentence": "九寨沟真的是名不虚传,景色真的是太美了,一天内要游玩三条沟还是挺紧凑的,起码要设定8-10个小时的时间,而且有些景点还不能磨磨蹭蹭.不过最让我感动的还是九寨沟景区公交车的司机和讲解员,当时我由于坐错车在最后一条树正沟还没有完全游玩就直接坐到景区出口了,那时已经是下午五点半左右,绝大部分景区公交车都已经下班不再上去了,在询问了至少三十几辆车后我本来都已经打算放弃带着遗憾离开九寨沟了,最后让我遇到车号0017的好心师傅和超帅气的***小伙,听说了我的事他们把我一人重新带上山,说不能留下遗憾,感谢我对他家乡的认可,我也感动于这位帅气小伙对自己家乡的热爱,司机师傅还专门带我到诺日朗瀑布站点让我节约时间抓紧游玩.",
+      "pronouns": [
+        {
+          "pronoun": "他",
+          "position": 226,
+          "type": "personal"
+        },
+        {
+          "pronoun": "他们",
+          "position": 226,
+          "type": "personal"
+        },
+        {
+          "pronoun": "他",
+          "position": 250,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_5_1",
+      "scenic_spot": "九寨沟",
+      "travelog_id": "九寨沟_travelog_5",
+      "sentence_index": 1,
+      "sentence": "感受: 我现在知道为什么九寨沟那么美,因为这里的人深切的热爱着他们的故乡,秀美的风景滋养出这里的人们善良的品格.对于我这样的外乡人来说,美景只丰富了我的眼界,但这里人们的善良热忱却温暖感动了我的内心.原本以为会带着深深地遗憾走,但意外收获了满满的感动.九寨沟人间值得",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 21,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 21,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "他",
+          "position": 31,
+          "type": "personal"
+        },
+        {
+          "pronoun": "他们",
+          "position": 31,
+          "type": "personal"
+        },
+        {
+          "pronoun": "这里",
+          "position": 45,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 45,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 80,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 80,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_2",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_1",
+      "sentence_index": 2,
+      "sentence": "车站人挺多,看样子好长时间没来车了.运气真好,一下就来了好几辆甩着大辫子的电车,这里至少有三四辆公交都能直达故宫,有的三站,有的四站,没座儿还好办些,就是人多味道比较复杂,找了半天也没发现咸带鱼的信息源来自哪里.六七分钟的样子抵达目的地,下车走地下通道过马路,其实道路也就十来米宽,还感慨自己代表的北京人素质高,就不横穿马路,就怎么也找不到售票处.赶紧问工作人员,这有事没事都经过的地界自己怎么糊涂了呢?“故宫现在全面单行,一律从南门进,北门出,您要绕道天安门方向进才行!”一听,我脑袋就大了,显然有年头没来了,这规定据说执行了三四年了.我这个郁闷呀!怎么绕呀?沿着护城河外围,那不得累死我.门口专1路四站地.自己骂着自己,准备不充分,又想零钱包没带,专1路上车1块钱,不设找零,而我身上只有百元面值的钞票,我犹豫了一下,算计着回家得了,不耽误洗衣服做饭.工作人员似乎读懂了我的心事,立马追上一句,“公交卡也可以,刷卡4毛”,看看,想从我这个铁公鸡上拔毛还挺不容易的.早知如此,何必当初,早上要是直达天安门省事多了.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 40,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 40,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_3",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_1",
+      "sentence_index": 3,
+      "sentence": "再次上了公交车还没站稳,售票员吆喝,“现在两会,天安门交通管制,天安门东过站不停车.”得,又崴泥了.于是在故宫东门下车,这不27中学门口吗?要知道叫上在这里上班的小区好友“小白”,估计她也没这闲心.故宫东门也不让进,顺着护城河的里圈往南接着绕,河对面就是劳动人民文化宫和中山公园,这里都很熟悉,只是这个角度望过去的次数不多.河边的垂柳已经可见若有如无的一层绿意,阳光照射下的河面金光闪闪,波光粼粼,偶有几只鸽子从天空掠过,遛早的大爷一边听着话匣子一边摆放着一瓶开了盖儿的二锅头,处处显示出了这座城市特有的惬意休闲的早晨.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 76,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 76,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "她",
+          "position": 92,
+          "type": "personal"
+        },
+        {
+          "pronoun": "这里",
+          "position": 140,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 140,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_4",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_1",
+      "sentence_index": 4,
+      "sentence": "故宫南广场已是人潮汹涌,买票倒没排队.半价票20元,说心里话我都惊呆了,太便宜了.北京就是规范,对于热爱旅行的我来说动辄二三百元的门票已经是司空见惯的事情,无论怎么比全国也没有任意一个景观的价值能和它相提并论.如此价格和我经常看到的都挤不动的人群,是该利用价格杠杆调控的时候了,哈哈哈,提价!我投上支持的一票,估计会受到大家的诅咒,但也是为了保护文物.",
+      "pronouns": [
+        {
+          "pronoun": "它",
+          "position": 99,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_2_24",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_2",
+      "sentence_index": 24,
+      "sentence": "- 建议自带干粮.宫内有冰窖餐厅及角楼咖啡.",
+      "pronouns": [
+        {
+          "pronoun": "宫内",
+          "position": 9,
+          "type": "demonstrative_phrase"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_0",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_3",
+      "sentence_index": 0,
+      "sentence": "若问京城何处能容得下千年往事,答案必是紫禁城.这里的一砖一瓦皆沾帝王气,半池春水倒映着朝代更迭.晨曦初露时,角楼飞檐挑起天际线,朱红城墙在朝阳下泛起鎏金纹路.一日虽短,却足以让脚步丈量皇权的经纬,让目光穿透历史的褶皱,让舌尖触碰京华烟火的余温.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 23,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 23,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_5",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_3",
+      "sentence_index": 5,
+      "sentence": "穿过太和门,太和殿的金色重檐劈开天际.这座东方三大殿之首的宫殿,以10只脊兽傲视群伦(他处多为9只),蟠龙藻井下,髹金漆云龙纹宝座仍泛着权力的冷光.驻足丹陛仰望,三层汉白玉台基上的1142个石雕龙头蓄势待发,若逢雨天,“千龙吐水”的奇观将唤醒沉睡的皇家气象.",
+      "pronouns": [
+        {
+          "pronoun": "他",
+          "position": 43,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_7",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_3",
+      "sentence_index": 7,
+      "sentence": "中和殿的“允执厥中”匾额下,曾是帝王祭天前的静心之所,殿内金丝楠木梁枋流淌着中庸之道.向北行至保和殿,云龙石雕如一卷展开的江山长卷,重达250吨的巨石上,九条蛟龙穿云破浪——这里是殿试揭榜之地,寒门学子曾在此以笔墨叩响仕途之门.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 87,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 87,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_14",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_3",
+      "sentence_index": 14,
+      "sentence": "宁寿宫区的九龙壁上,琉璃龙鳞在暮色中流转金光.畅音阁的三层戏台曾上演<贵妃醉酒>的浮华,珍妃井的窄口则吞噬了维新梦碎的叹息.这里陈列的不仅仅是翡翠白菜与金瓯永固杯,更是一个王朝从极盛到倾覆的物质证言.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 62,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 62,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_19",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_3",
+      "sentence_index": 19,
+      "sentence": "从神武门回望,暮色中的角楼倒映护城河,飞檐上的脊兽渐次隐入暗蓝的天幕.1924年溥仪由此离去的身影,为紫禁城的帝王叙事画上句点,却开启了它作为博物院的重生篇章.",
+      "pronouns": [
+        {
+          "pronoun": "它",
+          "position": 68,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_28",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_3",
+      "sentence_index": 28,
+      "sentence": "从晨光中的午门到暮色里的神武门,一日遍历六百年.这里美,不仅是金瓦朱墙视觉震撼,更是历史褶皱中的微妙震颤——保和殿石阶上的进士足迹、延禧宫钢架上的西风东渐、御花园连理柏下未竟情愫……等待每一个来访者以脚步为笔续写属于自己的紫禁篇章.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 24,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 24,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_2",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 2,
+      "sentence": "抢票攻略:在“故宫博物院”小程序预定门票,提前一周晚上8点放票,节假日开票秒没,抢票难度五颗星.一次性放完票,如果当时抢不到,一般也没有余票可以抢.只需抢到入场的60块钱门票就好,想看珍宝馆、钟表馆和其他的特展,可以进去之后在对应的馆门口买票.",
+      "pronouns": [
+        {
+          "pronoun": "他",
+          "position": 101,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_8",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 8,
+      "sentence": "作为皇家宫廷,午门有着严格的进出规则.特别是正中央的门洞,是只属于皇帝本人的通道,只有极少数情况才允许他人进出.能从这里走出去的例外是科举殿试前三名,状元、榜眼和探花,高中后的才俊带着无上殊荣走出皇宫,走向仕途;能从这儿进入的例外则是帝后大婚,新皇后的婚轿从正中迎入,入主中宫.但实际上历史上受到过此般待遇的皇后寥寥无几,因为登基后再成婚的皇帝数量本就极少.一进一出的例外似乎也跟中国古话中那句“洞房花烛夜,金榜题名时”相呼应.",
+      "pronouns": [
+        {
+          "pronoun": "他",
+          "position": 51,
+          "type": "personal"
+        },
+        {
+          "pronoun": "这里",
+          "position": 58,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 58,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_13",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 13,
+      "sentence": "展品看点1. 康雍乾以及路易十四十五十六的画像,其中最令人瞩目是雍正洋装卷发画像,也就是网上热议的COS图,跟电视剧<雍正王朝>中的剧照对比,电视剧真的很还原.雍正皇帝留下一大批他cosplay其他人物的画像,除了以上提到的cos洋人,还有cos李白、苏轼、蒙古人、僧人、农民等等各种身份的人,这种“小众”爱好跟历史上日理万机的雍正颇具反差,据考察这些画像似乎是在雍正当皇帝以前的作品,有种说法是在储君之位未定时,雍正用书画方式来向康熙表现自己跟各族人民、各邦势力之间和睦亲密关系.",
+      "pronouns": [
+        {
+          "pronoun": "他",
+          "position": 89,
+          "type": "personal"
+        },
+        {
+          "pronoun": "他",
+          "position": 98,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_18",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 18,
+      "sentence": "坤宁宫为皇后住所,中宫之主即皇后,也是帝后大婚洞房,<末代皇帝>中溥仪与婉容洞房即此处.交泰殿为乾清宫与坤宁宫之间过渡建筑,与皇后密切相关,如千秋节接受朝贺之地.<甄嬛传>中熹妃回宫情节设于交泰殿,但该剧未在故宫取景,两者建筑细节差异较大.",
+      "pronouns": [
+        {
+          "pronoun": "此处",
+          "position": 41,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_21",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 21,
+      "sentence": "对比甄嬛,<甄嬛传>中华妃原型年妃更令人唏嘘,她温婉知书达理,为年羹尧妹妹,在娘家夫家间小心翼翼.虽获盛宠且多次怀孕,但子女早夭致其精神身体双重折磨,不到三十岁逝世,其封号非死后追封而病重时封,对其哥哥一家处理亦发生于她去世之后.",
+      "pronouns": [
+        {
+          "pronoun": "她",
+          "position": 23,
+          "type": "personal"
+        },
+        {
+          "pronoun": "她",
+          "position": 109,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_24",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 24,
+      "sentence": "御花园内欣赏美轮美奂藻井(天花板中央向上隆起穹顶),最精美处在万春亭,中间雕刻金色龙形立体雕塑,如同龙欲飞下屋顶,非常生动.",
+      "pronouns": [
+        {
+          "pronoun": "园内",
+          "position": 2,
+          "type": "demonstrative_phrase"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_25",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_4",
+      "sentence_index": 25,
+      "sentence": "珍妃井亦位于此处.",
+      "pronouns": [
+        {
+          "pronoun": "此处",
+          "position": 6,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_5_3",
+      "scenic_spot": "故宫",
+      "travelog_id": "故宫_travelog_5",
+      "sentence_index": 3,
+      "sentence": "在游览的过程中,也会看到九龙壁,没错是九龙壁,中国现存九龙壁有三座,分别位于山西省大同市(大同九龙壁)、北京市故宫内(故宫九龙壁)和北京市北海公园内(北海九龙壁),其中北海九龙壁是中国三大九龙壁中唯一一处双面九龙壁,但故宫九龙壁也同样精美,令人赞叹.",
+      "pronouns": [
+        {
+          "pronoun": "宫内",
+          "position": 56,
+          "type": "demonstrative_phrase"
+        },
+        {
+          "pronoun": "园内",
+          "position": 72,
+          "type": "demonstrative_phrase"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_1_0",
+      "scenic_spot": "黄山",
+      "travelog_id": "黄山_travelog_1",
+      "sentence_index": 0,
+      "sentence": "三年疫情阻挡了中国发展的脚步,也阻挡了我爬山的脚步...(此处省略部分开头)...第七座名山我选了黄山,缘由当然是小学语文的一篇<黄山奇石>...黄山位于安徽省黄山市境内,号称“天下第一奇山”...主要景区有温泉景区、玉屏景区、天海景区、西海景区、北海景区、松谷景区、云谷景区、西海大峡谷.",
+      "pronouns": [
+        {
+          "pronoun": "此处",
+          "position": 29,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_2_9",
+      "scenic_spot": "黄山",
+      "travelog_id": "黄山_travelog_2",
+      "sentence_index": 9,
+      "sentence": "登上了黄山第二高峰-光明顶,1860米.大雾环绕的山也是别有一番韵味的.在山上看到挑山工,一个挑山工一般可以挑起160斤的重物上下山,健步如飞.他们教会了我一个朴实道理:干什么事,只要一心向着目标,步步踩实,一个劲往前走,就能到达目的地.",
+      "pronouns": [
+        {
+          "pronoun": "他",
+          "position": 72,
+          "type": "personal"
+        },
+        {
+          "pronoun": "他们",
+          "position": 72,
+          "type": "personal"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_5_0",
+      "scenic_spot": "黄山",
+      "travelog_id": "黄山_travelog_5",
+      "sentence_index": 0,
+      "sentence": "千年文化徽州,一品生态黄山.来到黄山市就不得不去黄山,就好像去北京不去故宫,去上海不看看外滩般遗憾.当然在这里先区分下3个都叫黄山的地方:黄山市:市府所在地在屯溪,即现在的屯溪区,就是屯溪老街、黎阳in巷所在之地,黄山的旅游集散中心,最佳食宿地.黄山区:原为太平县,在黄山风景区北麓,是黄山北大门,从这里可以乘坐太平缆车上山.距黄山北大门16公里、南大门51公里.黄山风景区,就是通常我们游览攀登的真正意义上的黄山.来黄山之前一定要弄清这三个地方,选择自己要到目的地. 黄山面积很大,精华部分有154平方公里,主要游玩点是北海景区、西海景区、光明顶景区、天海景区和玉屏楼景区,一天的话还要删减一些,现在介绍下最经典的前山(慈光阁)上,后山(云谷寺)下我们的黄山旅行路线吧: 在黄山风景区换乘中心换乘景区交通车至前山(慈光阁),购买黄山门票、索道票到达玉屏上站,先游玉屏楼景区:看蒲团松、好汉坡,观玉屏睡佛,赏国宝迎客松,远眺黄山最险山峰天都峰,走幸福大道,过莲花亭,经百步云梯、一线天上至鳌鱼峰观鳌鱼驮金龟的巨石奇观,过天海景区约中午时分到达天海服务区(白云宾馆).中午在白云宾馆就餐,补充能量.下午继续前行上光明顶,自光明顶下行,游览炼丹峰、飞来石,排云亭(远观西海大峡谷),过排云楼宾馆、西海饭店,观团结松、大王松、黑虎松到始信峰,一路下到白鹅岭新站索道,乘坐索道下山到云谷寺,换乘景区交通车返回到山下. 受疫情影响,黄山风景区北大门定于2020年4月29日恢复开放,北大门每日最大接待量控制在1500人以内.游客进山时应注意做到:1.登录“皖事通”APP,选择黄山市申领“安康码”;2.必须预约门票、换乘车票或索道票及时段;3.预约成功后,抵达景区入口区扫码核验、测温.",
+      "pronouns": [
+        {
+          "pronoun": "这里",
+          "position": 53,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 53,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 150,
+          "type": "demonstrative_location"
+        },
+        {
+          "pronoun": "这里",
+          "position": 150,
+          "type": "demonstrative_location"
+        }
+      ],
+      "manual_annotation": null,
+      "auto_resolution": null
+    }
+  ]
+}

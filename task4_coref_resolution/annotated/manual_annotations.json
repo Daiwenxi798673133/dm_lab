@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "description": "手工标注的代词指代消解结果 - 用于评估自动消解算法的准确性",
+    "annotated_at": "2026-02-25",
+    "total_annotations": 30,
+    "annotation_schema": {
+      "sentence_id": "句子唯一标识",
+      "sentence": "包含代词的句子",
+      "pronoun": "代词",
+      "pronoun_type": "代词类型 (personal/demonstrative_location/demonstrative_phrase)",
+      "manual_antecedent": "手工标注的先行词（代词指代的实体）",
+      "antecedent_type": "先行词类型 (POI/Location/Person/Object)",
+      "confidence": "标注置信度 (high/medium/low)",
+      "notes": "备注说明"
+    }
+  },
+  "annotations": [
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_1_0",
+      "sentence": "我们第一天选择了右线(日则沟),这里是九寨沟的精华所在,五花海和珍珠滩瀑布简直美得让人窒息",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "日则沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代日则沟（九寨沟的右线游览路线）"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_1_1",
+      "sentence": "感受: 这里的每一处景色都像是一幅画",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "九寨沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代整个九寨沟景区，需要跨句指代消解"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_2_1",
+      "sentence": "感受: 这里的山水有一种洗涤心灵的魔力",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "九寨沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代九寨沟景区"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_3_1",
+      "sentence": "大自然的鬼斧神工在这里体现得淋漓尽致,每一个海子都有它独特的故事和美感",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "九寨沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代九寨沟"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_3_1",
+      "sentence": "每一个海子都有它独特的故事和美感",
+      "pronoun": "它",
+      "pronoun_type": "personal",
+      "manual_antecedent": "海子",
+      "antecedent_type": "Object",
+      "confidence": "high",
+      "notes": "它指代海子（九寨沟的湖泊）"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_4_0",
+      "sentence": "深度游览九寨沟.这次重点走访了扎如沟,这里相对幽静,适合徒步",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "扎如沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代扎如沟"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_4_0",
+      "sentence": "下午重点看树正瀑布和磨坊,那里很有生活气息",
+      "pronoun": "那里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "树正瀑布和磨坊",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "那里指代树正瀑布和磨坊区域"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_5_0",
+      "sentence": "感谢我对他家乡的认可",
+      "pronoun": "他",
+      "pronoun_type": "personal",
+      "manual_antecedent": "帅气小伙",
+      "antecedent_type": "Person",
+      "confidence": "high",
+      "notes": "他指代讲解员小伙"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_5_1",
+      "sentence": "因为这里的人深切的热爱着他们的故乡",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "九寨沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代九寨沟"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_5_1",
+      "sentence": "但这里人们的善良热忱却温暖感动了我的内心",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "九寨沟",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代九寨沟"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_2",
+      "sentence": "这里至少有三四辆公交都能直达故宫",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "车站",
+      "antecedent_type": "Location",
+      "confidence": "medium",
+      "notes": "这里指代当前所在的车站位置"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_3",
+      "sentence": "这不27中学门口吗?要知道叫上在这里上班的小区好友小白",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "27中学门口",
+      "antecedent_type": "Location",
+      "confidence": "high",
+      "notes": "这里指代27中学门口"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_3",
+      "sentence": "要知道叫上在这里上班的小区好友小白,估计她也没这闲心",
+      "pronoun": "她",
+      "pronoun_type": "personal",
+      "manual_antecedent": "小白",
+      "antecedent_type": "Person",
+      "confidence": "high",
+      "notes": "她指代小白"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_3",
+      "sentence": "河对面就是劳动人民文化宫和中山公园,这里都很熟悉",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "劳动人民文化宫和中山公园",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代劳动人民文化宫和中山公园一带"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_4",
+      "sentence": "无论怎么比全国也没有任意一个景观的价值能和它相提并论",
+      "pronoun": "它",
+      "pronoun_type": "personal",
+      "manual_antecedent": "故宫",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "它指代故宫"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_2_24",
+      "sentence": "宫内有冰窖餐厅及角楼咖啡",
+      "pronoun": "宫内",
+      "pronoun_type": "demonstrative_phrase",
+      "manual_antecedent": "故宫",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "宫内指代故宫"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_0",
+      "sentence": "这里的一砖一瓦皆沾帝王气",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "紫禁城",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代紫禁城（故宫）"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_5",
+      "sentence": "这座东方三大殿之首的宫殿,以10只脊兽傲视群伦(他处多为9只)",
+      "pronoun": "他",
+      "pronoun_type": "personal",
+      "manual_antecedent": "其他宫殿",
+      "antecedent_type": "Object",
+      "confidence": "medium",
+      "notes": "他处指代其他地方的宫殿"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_7",
+      "sentence": "这里是殿试揭榜之地",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "保和殿",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代保和殿"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_14",
+      "sentence": "这里陈列的不仅仅是翡翠白菜与金瓯永固杯",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "宁寿宫区",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代宁寿宫区"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_19",
+      "sentence": "却开启了它作为博物院的重生篇章",
+      "pronoun": "它",
+      "pronoun_type": "personal",
+      "manual_antecedent": "紫禁城",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "它指代紫禁城（故宫）"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_28",
+      "sentence": "这里美,不仅是金瓦朱墙视觉震撼",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "故宫",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "这里指代故宫"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_8",
+      "sentence": "特别是正中央的门洞,是只属于皇帝本人的通道,只有极少数情况才允许他人进出",
+      "pronoun": "他",
+      "pronoun_type": "personal",
+      "manual_antecedent": "其他人",
+      "antecedent_type": "Person",
+      "confidence": "high",
+      "notes": "他人指代除了皇帝之外的其他人"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_8",
+      "sentence": "能从这里走出去的例外是科举殿试前三名",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "午门正中央的门洞",
+      "antecedent_type": "Location",
+      "confidence": "high",
+      "notes": "这里指代午门正中央的门洞"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_13",
+      "sentence": "这种小众爱好跟历史上日理万机的雍正颇具反差,据考察这些画像似乎是在雍正当皇帝以前的作品",
+      "pronoun": "他",
+      "pronoun_type": "personal",
+      "manual_antecedent": "雍正皇帝",
+      "antecedent_type": "Person",
+      "confidence": "high",
+      "notes": "他指代雍正皇帝"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_21",
+      "sentence": "对比甄嬛,甄嬛传中华妃原型年妃更令人唏嘘,她温婉知书达理",
+      "pronoun": "她",
+      "pronoun_type": "personal",
+      "manual_antecedent": "年妃",
+      "antecedent_type": "Person",
+      "confidence": "high",
+      "notes": "她指代年妃"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_24",
+      "sentence": "御花园内欣赏美轮美奂藻井",
+      "pronoun": "园内",
+      "pronoun_type": "demonstrative_phrase",
+      "manual_antecedent": "御花园",
+      "antecedent_type": "POI",
+      "confidence": "high",
+      "notes": "园内指代御花园"
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_2_9",
+      "sentence": "他们教会了我一个朴实道理",
+      "pronoun": "他们",
+      "pronoun_type": "personal",
+      "manual_antecedent": "挑山工",
+      "antecedent_type": "Person",
+      "confidence": "high",
+      "notes": "他们指代挑山工"
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_5_0",
+      "sentence": "来到黄山市就不得不去黄山,就好像去北京不去故宫,去上海不看看外滩般遗憾.当然在这里先区分下3个都叫黄山的地方",
+      "pronoun": "这里",
+      "pronoun_type": "demonstrative_location",
+      "manual_antecedent": "本文/当前叙述",
+      "antecedent_type": "Location",
+      "confidence": "medium",
+      "notes": "这里是元语言指代，指代当前文本位置"
+    }
+  ]
+}

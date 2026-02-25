@@ -1,0 +1,200 @@
+{
+  "summary": {
+    "total_cases": 29,
+    "correct": 14,
+    "incorrect": 15,
+    "not_resolved": 0,
+    "accuracy": "48.3%"
+  },
+  "by_pronoun_type": {
+    "demonstrative_location": {
+      "total": 17,
+      "correct": 9,
+      "accuracy": 0.5294117647058824
+    },
+    "personal": {
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4
+    },
+    "demonstrative_phrase": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    }
+  },
+  "by_antecedent_type": {
+    "POI": {
+      "total": 17,
+      "correct": 8,
+      "accuracy": 0.47058823529411764
+    },
+    "Object": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    "Person": {
+      "total": 6,
+      "correct": 3,
+      "accuracy": 0.5
+    },
+    "Location": {
+      "total": 4,
+      "correct": 2,
+      "accuracy": 0.5
+    }
+  },
+  "error_analysis": [
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_1_1",
+      "sentence": "感受: 这里的每一处景色都像是一幅画",
+      "pronoun": "这里",
+      "manual_antecedent": "九寨沟",
+      "auto_antecedent": null,
+      "error_type": "incorrect_resolution",
+      "confidence": "low",
+      "method": "no_candidate"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_2_1",
+      "sentence": "感受: 这里的山水有一种洗涤心灵的魔力",
+      "pronoun": "这里",
+      "manual_antecedent": "九寨沟",
+      "auto_antecedent": null,
+      "error_type": "incorrect_resolution",
+      "confidence": "low",
+      "method": "no_candidate"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_3_1",
+      "sentence": "大自然的鬼斧神工在这里体现得淋漓尽致,每一个海子都有它独特的故事和美感",
+      "pronoun": "这里",
+      "manual_antecedent": "九寨沟",
+      "auto_antecedent": "景区",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_4_0",
+      "sentence": "深度游览九寨沟.这次重点走访了扎如沟,这里相对幽静,适合徒步",
+      "pronoun": "这里",
+      "manual_antecedent": "扎如沟",
+      "auto_antecedent": "重点",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    },
+    {
+      "sentence_id": "九寨沟_九寨沟_travelog_5_0",
+      "sentence": "感谢我对他家乡的认可",
+      "pronoun": "他",
+      "manual_antecedent": "帅气小伙",
+      "auto_antecedent": "树正沟",
+      "error_type": "incorrect_resolution",
+      "confidence": "high",
+      "method": "nearest_poi_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_2",
+      "sentence": "这里至少有三四辆公交都能直达故宫",
+      "pronoun": "这里",
+      "manual_antecedent": "车站",
+      "auto_antecedent": "电车",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_3",
+      "sentence": "河对面就是劳动人民文化宫和中山公园,这里都很熟悉",
+      "pronoun": "这里",
+      "manual_antecedent": "劳动人民文化宫和中山公园",
+      "auto_antecedent": "中学",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_1_4",
+      "sentence": "无论怎么比全国也没有任意一个景观的价值能和它相提并论",
+      "pronoun": "它",
+      "manual_antecedent": "故宫",
+      "auto_antecedent": "价值",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_2_24",
+      "sentence": "宫内有冰窖餐厅及角楼咖啡",
+      "pronoun": "宫内",
+      "manual_antecedent": "故宫",
+      "auto_antecedent": "干粮",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_5",
+      "sentence": "这座东方三大殿之首的宫殿,以10只脊兽傲视群伦(他处多为9只)",
+      "pronoun": "他",
+      "manual_antecedent": "其他宫殿",
+      "auto_antecedent": "太和殿",
+      "error_type": "incorrect_resolution",
+      "confidence": "high",
+      "method": "nearest_poi_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_19",
+      "sentence": "却开启了它作为博物院的重生篇章",
+      "pronoun": "它",
+      "manual_antecedent": "紫禁城",
+      "auto_antecedent": "神武门",
+      "error_type": "incorrect_resolution",
+      "confidence": "high",
+      "method": "nearest_poi_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_3_28",
+      "sentence": "这里美,不仅是金瓦朱墙视觉震撼",
+      "pronoun": "这里",
+      "manual_antecedent": "故宫",
+      "auto_antecedent": "神武门",
+      "error_type": "incorrect_resolution",
+      "confidence": "high",
+      "method": "nearest_poi_in_sentence"
+    },
+    {
+      "sentence_id": "故宫_故宫_travelog_4_8",
+      "sentence": "特别是正中央的门洞,是只属于皇帝本人的通道,只有极少数情况才允许他人进出",
+      "pronoun": "他",
+      "manual_antecedent": "其他人",
+      "auto_antecedent": "午门",
+      "error_type": "incorrect_resolution",
+      "confidence": "high",
+      "method": "nearest_poi_in_sentence"
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_2_9",
+      "sentence": "他们教会了我一个朴实道理",
+      "pronoun": "他们",
+      "manual_antecedent": "挑山工",
+      "auto_antecedent": "光明顶",
+      "error_type": "incorrect_resolution",
+      "confidence": "high",
+      "method": "nearest_poi_in_sentence"
+    },
+    {
+      "sentence_id": "黄山_黄山_travelog_5_0",
+      "sentence": "来到黄山市就不得不去黄山,就好像去北京不去故宫,去上海不看看外滩般遗憾.当然在这里先区分下3个都叫黄山的地方",
+      "pronoun": "这里",
+      "manual_antecedent": "本文/当前叙述",
+      "auto_antecedent": "外滩",
+      "error_type": "incorrect_resolution",
+      "confidence": "medium",
+      "method": "nearest_noun_in_sentence"
+    }
+  ]
+}

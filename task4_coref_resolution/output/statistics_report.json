@@ -1,0 +1,412 @@
+{
+  "pronoun_frequency": {
+    "这里": 36,
+    "景区内": 1,
+    "它": 3,
+    "那里": 1,
+    "他": 9,
+    "他们": 3,
+    "她": 3,
+    "宫内": 2,
+    "此处": 3,
+    "园内": 2
+  },
+  "pronoun_by_scenic_spot": {
+    "九寨沟": {
+      "这里": 16,
+      "景区内": 1,
+      "它": 1,
+      "那里": 1,
+      "他": 3,
+      "他们": 2
+    },
+    "故宫": {
+      "这里": 16,
+      "她": 3,
+      "它": 2,
+      "宫内": 2,
+      "他": 5,
+      "此处": 2,
+      "园内": 2
+    },
+    "黄山": {
+      "此处": 1,
+      "他": 1,
+      "他们": 1,
+      "这里": 4
+    }
+  },
+  "resolution_success_rate": {
+    "total": 28,
+    "resolved": 26,
+    "rate": "92.9%"
+  },
+  "sample_sentences": {
+    "九寨沟": [
+      {
+        "sentence_id": "九寨沟_九寨沟_travelog_1_0",
+        "scenic_spot": "九寨沟",
+        "travelog_id": "九寨沟_travelog_1",
+        "sentence_index": 0,
+        "sentence": "终于来到了梦寐以求的九寨沟!这次行程安排得非常充实.九寨沟的“丫”字形路线非常清晰.我们第一天选择了右线(日则沟),这里是九寨沟的精华所在,五花海和珍珠滩瀑布简直美得让人窒息,湖水在阳光下呈现出五彩斑斓的颜色,真的像童话世界.接着去了左线(则查洼沟),长海的壮阔和五彩池的精致交相辉映.最后是主干线(树正沟),树正群海和诺日朗瀑布气势磅礴.",
+        "pronouns": [
+          {
+            "pronoun": "这里",
+            "position": 58,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 58,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "这里",
+            "antecedent": "日则沟",
+            "resolution_method": "nearest_poi_in_sentence",
+            "confidence": "high",
+            "reason": "在句子中找到最近的POI景点: 日则沟"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "日则沟",
+            "resolution_method": "nearest_poi_in_sentence",
+            "confidence": "high",
+            "reason": "在句子中找到最近的POI景点: 日则沟"
+          }
+        ]
+      },
+      {
+        "sentence_id": "九寨沟_九寨沟_travelog_1_1",
+        "scenic_spot": "九寨沟",
+        "travelog_id": "九寨沟_travelog_1",
+        "sentence_index": 1,
+        "sentence": "感受: 这里的每一处景色都像是一幅画,虽然步行较多,但完全被美景治愈了.建议大家一定要早起进沟,避开人流高峰,才能拍到最美的照片.",
+        "pronouns": [
+          {
+            "pronoun": "这里",
+            "position": 4,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 4,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "这里",
+            "antecedent": null,
+            "resolution_method": "no_candidate",
+            "confidence": "low",
+            "reason": "在句子内未找到合适的先行词"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": null,
+            "resolution_method": "no_candidate",
+            "confidence": "low",
+            "reason": "在句子内未找到合适的先行词"
+          }
+        ]
+      },
+      {
+        "sentence_id": "九寨沟_九寨沟_travelog_2_1",
+        "scenic_spot": "九寨沟",
+        "travelog_id": "九寨沟_travelog_2",
+        "sentence_index": 1,
+        "sentence": "感受: 这里的山水有一种洗涤心灵的魔力.虽然一天走下来腿很酸,但看到那一抹抹碧蓝的湖水,觉得一切都值了.九寨归来不看水,诚不欺我.",
+        "pronouns": [
+          {
+            "pronoun": "这里",
+            "position": 4,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 4,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "这里",
+            "antecedent": null,
+            "resolution_method": "no_candidate",
+            "confidence": "low",
+            "reason": "在句子内未找到合适的先行词"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": null,
+            "resolution_method": "no_candidate",
+            "confidence": "low",
+            "reason": "在句子内未找到合适的先行词"
+          }
+        ]
+      }
+    ],
+    "故宫": [
+      {
+        "sentence_id": "故宫_故宫_travelog_1_2",
+        "scenic_spot": "故宫",
+        "travelog_id": "故宫_travelog_1",
+        "sentence_index": 2,
+        "sentence": "车站人挺多,看样子好长时间没来车了.运气真好,一下就来了好几辆甩着大辫子的电车,这里至少有三四辆公交都能直达故宫,有的三站,有的四站,没座儿还好办些,就是人多味道比较复杂,找了半天也没发现咸带鱼的信息源来自哪里.六七分钟的样子抵达目的地,下车走地下通道过马路,其实道路也就十来米宽,还感慨自己代表的北京人素质高,就不横穿马路,就怎么也找不到售票处.赶紧问工作人员,这有事没事都经过的地界自己怎么糊涂了呢?“故宫现在全面单行,一律从南门进,北门出,您要绕道天安门方向进才行!”一听,我脑袋就大了,显然有年头没来了,这规定据说执行了三四年了.我这个郁闷呀!怎么绕呀?沿着护城河外围,那不得累死我.门口专1路四站地.自己骂着自己,准备不充分,又想零钱包没带,专1路上车1块钱,不设找零,而我身上只有百元面值的钞票,我犹豫了一下,算计着回家得了,不耽误洗衣服做饭.工作人员似乎读懂了我的心事,立马追上一句,“公交卡也可以,刷卡4毛”,看看,想从我这个铁公鸡上拔毛还挺不容易的.早知如此,何必当初,早上要是直达天安门省事多了.",
+        "pronouns": [
+          {
+            "pronoun": "这里",
+            "position": 40,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 40,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "这里",
+            "antecedent": "电车",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 电车"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "电车",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 电车"
+          }
+        ]
+      },
+      {
+        "sentence_id": "故宫_故宫_travelog_1_3",
+        "scenic_spot": "故宫",
+        "travelog_id": "故宫_travelog_1",
+        "sentence_index": 3,
+        "sentence": "再次上了公交车还没站稳,售票员吆喝,“现在两会,天安门交通管制,天安门东过站不停车.”得,又崴泥了.于是在故宫东门下车,这不27中学门口吗?要知道叫上在这里上班的小区好友“小白”,估计她也没这闲心.故宫东门也不让进,顺着护城河的里圈往南接着绕,河对面就是劳动人民文化宫和中山公园,这里都很熟悉,只是这个角度望过去的次数不多.河边的垂柳已经可见若有如无的一层绿意,阳光照射下的河面金光闪闪,波光粼粼,偶有几只鸽子从天空掠过,遛早的大爷一边听着话匣子一边摆放着一瓶开了盖儿的二锅头,处处显示出了这座城市特有的惬意休闲的早晨.",
+        "pronouns": [
+          {
+            "pronoun": "这里",
+            "position": 76,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 76,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "她",
+            "position": 92,
+            "type": "personal"
+          },
+          {
+            "pronoun": "这里",
+            "position": 140,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 140,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "这里",
+            "antecedent": "中学",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 中学"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "中学",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 中学"
+          },
+          {
+            "pronoun": "她",
+            "antecedent": "小白",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 小白"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "中山公园",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 中山公园"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "中山公园",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 中山公园"
+          }
+        ]
+      },
+      {
+        "sentence_id": "故宫_故宫_travelog_1_4",
+        "scenic_spot": "故宫",
+        "travelog_id": "故宫_travelog_1",
+        "sentence_index": 4,
+        "sentence": "故宫南广场已是人潮汹涌,买票倒没排队.半价票20元,说心里话我都惊呆了,太便宜了.北京就是规范,对于热爱旅行的我来说动辄二三百元的门票已经是司空见惯的事情,无论怎么比全国也没有任意一个景观的价值能和它相提并论.如此价格和我经常看到的都挤不动的人群,是该利用价格杠杆调控的时候了,哈哈哈,提价!我投上支持的一票,估计会受到大家的诅咒,但也是为了保护文物.",
+        "pronouns": [
+          {
+            "pronoun": "它",
+            "position": 99,
+            "type": "personal"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "它",
+            "antecedent": "价值",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 价值"
+          }
+        ]
+      }
+    ],
+    "黄山": [
+      {
+        "sentence_id": "黄山_黄山_travelog_1_0",
+        "scenic_spot": "黄山",
+        "travelog_id": "黄山_travelog_1",
+        "sentence_index": 0,
+        "sentence": "三年疫情阻挡了中国发展的脚步,也阻挡了我爬山的脚步...(此处省略部分开头)...第七座名山我选了黄山,缘由当然是小学语文的一篇<黄山奇石>...黄山位于安徽省黄山市境内,号称“天下第一奇山”...主要景区有温泉景区、玉屏景区、天海景区、西海景区、北海景区、松谷景区、云谷景区、西海大峡谷.",
+        "pronouns": [
+          {
+            "pronoun": "此处",
+            "position": 29,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "此处",
+            "antecedent": "脚步",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 脚步"
+          }
+        ]
+      },
+      {
+        "sentence_id": "黄山_黄山_travelog_2_9",
+        "scenic_spot": "黄山",
+        "travelog_id": "黄山_travelog_2",
+        "sentence_index": 9,
+        "sentence": "登上了黄山第二高峰-光明顶,1860米.大雾环绕的山也是别有一番韵味的.在山上看到挑山工,一个挑山工一般可以挑起160斤的重物上下山,健步如飞.他们教会了我一个朴实道理:干什么事,只要一心向着目标,步步踩实,一个劲往前走,就能到达目的地.",
+        "pronouns": [
+          {
+            "pronoun": "他",
+            "position": 72,
+            "type": "personal"
+          },
+          {
+            "pronoun": "他们",
+            "position": 72,
+            "type": "personal"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "他",
+            "antecedent": "光明顶",
+            "resolution_method": "nearest_poi_in_sentence",
+            "confidence": "high",
+            "reason": "在句子中找到最近的POI景点: 光明顶"
+          },
+          {
+            "pronoun": "他们",
+            "antecedent": "光明顶",
+            "resolution_method": "nearest_poi_in_sentence",
+            "confidence": "high",
+            "reason": "在句子中找到最近的POI景点: 光明顶"
+          }
+        ]
+      },
+      {
+        "sentence_id": "黄山_黄山_travelog_5_0",
+        "scenic_spot": "黄山",
+        "travelog_id": "黄山_travelog_5",
+        "sentence_index": 0,
+        "sentence": "千年文化徽州,一品生态黄山.来到黄山市就不得不去黄山,就好像去北京不去故宫,去上海不看看外滩般遗憾.当然在这里先区分下3个都叫黄山的地方:黄山市:市府所在地在屯溪,即现在的屯溪区,就是屯溪老街、黎阳in巷所在之地,黄山的旅游集散中心,最佳食宿地.黄山区:原为太平县,在黄山风景区北麓,是黄山北大门,从这里可以乘坐太平缆车上山.距黄山北大门16公里、南大门51公里.黄山风景区,就是通常我们游览攀登的真正意义上的黄山.来黄山之前一定要弄清这三个地方,选择自己要到目的地. 黄山面积很大,精华部分有154平方公里,主要游玩点是北海景区、西海景区、光明顶景区、天海景区和玉屏楼景区,一天的话还要删减一些,现在介绍下最经典的前山(慈光阁)上,后山(云谷寺)下我们的黄山旅行路线吧: 在黄山风景区换乘中心换乘景区交通车至前山(慈光阁),购买黄山门票、索道票到达玉屏上站,先游玉屏楼景区:看蒲团松、好汉坡,观玉屏睡佛,赏国宝迎客松,远眺黄山最险山峰天都峰,走幸福大道,过莲花亭,经百步云梯、一线天上至鳌鱼峰观鳌鱼驮金龟的巨石奇观,过天海景区约中午时分到达天海服务区(白云宾馆).中午在白云宾馆就餐,补充能量.下午继续前行上光明顶,自光明顶下行,游览炼丹峰、飞来石,排云亭(远观西海大峡谷),过排云楼宾馆、西海饭店,观团结松、大王松、黑虎松到始信峰,一路下到白鹅岭新站索道,乘坐索道下山到云谷寺,换乘景区交通车返回到山下. 受疫情影响,黄山风景区北大门定于2020年4月29日恢复开放,北大门每日最大接待量控制在1500人以内.游客进山时应注意做到:1.登录“皖事通”APP,选择黄山市申领“安康码”;2.必须预约门票、换乘车票或索道票及时段;3.预约成功后,抵达景区入口区扫码核验、测温.",
+        "pronouns": [
+          {
+            "pronoun": "这里",
+            "position": 53,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 53,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 150,
+            "type": "demonstrative_location"
+          },
+          {
+            "pronoun": "这里",
+            "position": 150,
+            "type": "demonstrative_location"
+          }
+        ],
+        "manual_annotation": null,
+        "auto_resolution": [
+          {
+            "pronoun": "这里",
+            "antecedent": "外滩",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 外滩"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "外滩",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 外滩"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "黄山",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 黄山"
+          },
+          {
+            "pronoun": "这里",
+            "antecedent": "黄山",
+            "resolution_method": "nearest_noun_in_sentence",
+            "confidence": "medium",
+            "reason": "在句子中找到最近的名词: 黄山"
+          }
+        ]
+      }
+    ]
+  }
+}
