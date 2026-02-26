@@ -1,0 +1,305 @@
+{
+  "scenic_spot": "故宫",
+  "fused_pois": [
+    "西六宫区",
+    "养心殿",
+    "太和门",
+    "奉先殿",
+    "神武门",
+    "太和殿",
+    "武英殿",
+    "中和殿",
+    "保和殿",
+    "交泰殿",
+    "乾清宫",
+    "午门",
+    "东六宫区",
+    "文华殿",
+    "坤宁宫",
+    "宁寿宫区",
+    "御花园",
+    "珍宝馆",
+    "东华门",
+    "景山",
+    "钟表馆"
+  ],
+  "poi_weights": {
+    "西六宫区": 0.94,
+    "养心殿": 0.82,
+    "太和门": 0.82,
+    "奉先殿": 0.76,
+    "神武门": 0.8799999999999999,
+    "太和殿": 1.0,
+    "武英殿": 0.76,
+    "中和殿": 1.0,
+    "保和殿": 1.0,
+    "交泰殿": 0.82,
+    "乾清宫": 0.8799999999999999,
+    "午门": 0.8799999999999999,
+    "东六宫区": 0.8799999999999999,
+    "文华殿": 0.82,
+    "坤宁宫": 0.8799999999999999,
+    "宁寿宫区": 0.76,
+    "御花园": 0.94,
+    "珍宝馆": 0.45,
+    "东华门": 0.45,
+    "景山": 0.45,
+    "钟表馆": 0.45
+  },
+  "statistics": {
+    "official_poi_count": 17,
+    "visitor_poi_count": 51,
+    "fused_poi_count": 21,
+    "visitor_supplemented_count": 4,
+    "advice_matched_count": 14,
+    "advice_unmatched_count": 6
+  },
+  "time_periods": {},
+  "normalized_routes": [
+    {
+      "from_poi": "午门",
+      "to_poi": "武英殿",
+      "route_id": "main",
+      "sequence_index": 1,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "武英殿",
+      "to_poi": "文华殿",
+      "route_id": "main",
+      "sequence_index": 2,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "文华殿",
+      "to_poi": "太和门",
+      "route_id": "main",
+      "sequence_index": 3,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "太和门",
+      "to_poi": "太和殿",
+      "route_id": "main",
+      "sequence_index": 4,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "太和殿",
+      "to_poi": "中和殿",
+      "route_id": "main",
+      "sequence_index": 5,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "中和殿",
+      "to_poi": "保和殿",
+      "route_id": "main",
+      "sequence_index": 6,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "保和殿",
+      "to_poi": "乾清宫",
+      "route_id": "main",
+      "sequence_index": 7,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "乾清宫",
+      "to_poi": "交泰殿",
+      "route_id": "main",
+      "sequence_index": 8,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "交泰殿",
+      "to_poi": "坤宁宫",
+      "route_id": "main",
+      "sequence_index": 9,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "坤宁宫",
+      "to_poi": "养心殿",
+      "route_id": "main",
+      "sequence_index": 10,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "养心殿",
+      "to_poi": "西六宫区",
+      "route_id": "main",
+      "sequence_index": 11,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "西六宫区",
+      "to_poi": "御花园",
+      "route_id": "main",
+      "sequence_index": 12,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "御花园",
+      "to_poi": "东六宫区",
+      "route_id": "main",
+      "sequence_index": 13,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "东六宫区",
+      "to_poi": "奉先殿",
+      "route_id": "main",
+      "sequence_index": 14,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "奉先殿",
+      "to_poi": "宁寿宫区",
+      "route_id": "main",
+      "sequence_index": 15,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    },
+    {
+      "from_poi": "宁寿宫区",
+      "to_poi": "神武门",
+      "route_id": "main",
+      "sequence_index": 16,
+      "period": "",
+      "transport": "",
+      "time_start": "",
+      "time_end": "",
+      "duration": "",
+      "source_format": "numbered_list"
+    }
+  ],
+  "route_normalization_report": {
+    "route_format": "numbered_list",
+    "parsed_route_count": 17,
+    "normalized_route_count": 16,
+    "official_poi_count": 17,
+    "time_period_count": 0
+  },
+  "recommended_route": {
+    "route_id": "main",
+    "reason": "single_route",
+    "score": 1.0,
+    "route_scores": {
+      "main": 1.0
+    }
+  },
+  "visitor_supplemented": [
+    "珍宝馆",
+    "东华门",
+    "景山",
+    "钟表馆"
+  ],
+  "visitor_supplemented_details": [
+    {
+      "poi": "珍宝馆",
+      "doc_frequency": 5,
+      "score": 1.0,
+      "source": "visitor"
+    },
+    {
+      "poi": "东华门",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "景山",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "钟表馆",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    }
+  ],
+  "condition_cleaning_report": {
+    "input_advice_count": 14,
+    "output_advice_count": 14,
+    "dropped_count": 0,
+    "dropped_reasons": {}
+  }
+}

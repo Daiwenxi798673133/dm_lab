@@ -1,0 +1,1009 @@
+{
+  "metadata": {
+    "scenic_spot": "黄山",
+    "generated_at": "2026-02-26T14:46:08.558028",
+    "graph_stats": {
+      "total_nodes": 22,
+      "total_edges": 25
+    },
+    "condition_cleaning_report": {
+      "input_advice_count": 2,
+      "output_advice_count": 2,
+      "dropped_count": 0,
+      "dropped_reasons": {},
+      "kept_other_subtypes": {},
+      "condition_node_count": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "poi_松谷庵景观区",
+      "type": "poi",
+      "label": "松谷庵景观区",
+      "properties": {
+        "display_label": "松谷庵景观区",
+        "source": "official",
+        "weight": 0.76,
+        "importance_score": 0.76,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_排云亭景观区",
+      "type": "poi",
+      "label": "排云亭景观区",
+      "properties": {
+        "display_label": "排云亭景观区",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_玉屏楼景观区",
+      "type": "poi",
+      "label": "玉屏楼景观区",
+      "properties": {
+        "display_label": "玉屏楼景观区",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_北海中路",
+      "type": "poi",
+      "label": "北海中路",
+      "properties": {
+        "display_label": "北海中路",
+        "source": "official",
+        "weight": 0.7,
+        "importance_score": 0.7,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_光明顶",
+      "type": "poi",
+      "label": "光明顶",
+      "properties": {
+        "display_label": "光明顶",
+        "source": "official",
+        "weight": 0.94,
+        "importance_score": 0.94,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_黄山南大门",
+      "type": "poi",
+      "label": "黄山南大门",
+      "properties": {
+        "display_label": "黄山南大门",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_云谷寺景观区",
+      "type": "poi",
+      "label": "云谷寺景观区",
+      "properties": {
+        "display_label": "云谷寺景观区",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_始信峰景观区",
+      "type": "poi",
+      "label": "始信峰景观区",
+      "properties": {
+        "display_label": "始信峰景观区",
+        "source": "official",
+        "weight": 0.94,
+        "importance_score": 0.94,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_天海景观区",
+      "type": "poi",
+      "label": "天海景观区",
+      "properties": {
+        "display_label": "天海景观区",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_黄山北大门",
+      "type": "poi",
+      "label": "黄山北大门",
+      "properties": {
+        "display_label": "黄山北大门",
+        "source": "official",
+        "weight": 0.7,
+        "importance_score": 0.7,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_狮子峰景观区",
+      "type": "poi",
+      "label": "狮子峰景观区",
+      "properties": {
+        "display_label": "狮子峰景观区",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_慈光阁景观区",
+      "type": "poi",
+      "label": "慈光阁景观区",
+      "properties": {
+        "display_label": "慈光阁景观区",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_南大门",
+      "type": "poi",
+      "label": "南大门",
+      "properties": {
+        "display_label": "南大门",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_天都峰",
+      "type": "poi",
+      "label": "天都峰",
+      "properties": {
+        "display_label": "天都峰",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_北海",
+      "type": "poi",
+      "label": "北海",
+      "properties": {
+        "display_label": "北海",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_西海",
+      "type": "poi",
+      "label": "西海",
+      "properties": {
+        "display_label": "西海",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_鳌鱼峰",
+      "type": "poi",
+      "label": "鳌鱼峰",
+      "properties": {
+        "display_label": "鳌鱼峰",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_云海",
+      "type": "poi",
+      "label": "云海",
+      "properties": {
+        "display_label": "云海",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_云谷索道",
+      "type": "poi",
+      "label": "云谷索道",
+      "properties": {
+        "display_label": "云谷索道",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_半山",
+      "type": "poi",
+      "label": "半山",
+      "properties": {
+        "display_label": "半山",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "condition_weather_光明顶下雨了",
+      "type": "condition",
+      "label": "光明顶下雨了",
+      "properties": {
+        "display_label": "光明顶下雨了",
+        "raw_condition": "光明顶下雨了",
+        "condition_type": "weather",
+        "condition_type_label": "天气条件",
+        "condition_subtype": "weather",
+        "confidence": 0.98,
+        "advice_samples": [
+          "不要去,因为雾气太大会导致景观看不见"
+        ],
+        "connected_pois": [
+          "光明顶"
+        ],
+        "weight": 0.9500000000000001,
+        "importance_score": 0.6799999999999999,
+        "original_type": "condition"
+      }
+    },
+    {
+      "id": "condition_transport_第一次玩从景区南大门云谷寺和乘索道上",
+      "type": "condition",
+      "label": "第一次玩从景区南大门云谷…",
+      "properties": {
+        "display_label": "第一次玩从景区南大门云谷…",
+        "raw_condition": "第一次玩从景区南大门云谷寺和乘索道上",
+        "condition_type": "transport",
+        "condition_type_label": "交通条件",
+        "condition_subtype": "transport",
+        "confidence": 0.98,
+        "advice_samples": [
+          "建议第一次玩从景区南大门云谷寺和乘索道上,省体力"
+        ],
+        "connected_pois": [
+          "南大门"
+        ],
+        "weight": 0.9500000000000001,
+        "importance_score": 0.6799999999999999,
+        "original_type": "condition"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "poi_松谷庵景观区",
+      "target": "poi_排云亭景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_4",
+          "route_5"
+        ],
+        "route_support": {
+          "route_4": 1,
+          "route_5": 1
+        },
+        "sequence_indices": [
+          2
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道 / 玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_排云亭景观区",
+      "target": "poi_天海景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_2"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_2": 1
+        },
+        "sequence_indices": [
+          5
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_排云亭景观区",
+      "target": "poi_光明顶",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_4",
+          "route_5"
+        ],
+        "route_support": {
+          "route_4": 1,
+          "route_5": 1
+        },
+        "sequence_indices": [
+          3
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道 / 玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_玉屏楼景观区",
+      "target": "poi_慈光阁景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_5"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_5": 1
+        },
+        "sequence_indices": [
+          6,
+          7
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道 / 玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_玉屏楼景观区",
+      "target": "poi_天海景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_3"
+        ],
+        "route_support": {
+          "route_3": 1
+        },
+        "sequence_indices": [
+          3
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          3
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_北海中路",
+      "target": "poi_云谷寺景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_2"
+        ],
+        "route_support": {
+          "route_2": 1
+        },
+        "sequence_indices": [
+          8
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_北海中路",
+      "target": "poi_始信峰景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_4"
+        ],
+        "route_support": {
+          "route_4": 1
+        },
+        "sequence_indices": [
+          5
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_光明顶",
+      "target": "poi_北海中路",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_2",
+          "route_4"
+        ],
+        "route_support": {
+          "route_2": 1,
+          "route_4": 1
+        },
+        "sequence_indices": [
+          4,
+          7
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_光明顶",
+      "target": "poi_狮子峰景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_3"
+        ],
+        "route_support": {
+          "route_3": 1
+        },
+        "sequence_indices": [
+          5
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          5
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_光明顶",
+      "target": "poi_天海景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_5"
+        ],
+        "route_support": {
+          "route_5": 1
+        },
+        "sequence_indices": [
+          4
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_黄山南大门",
+      "target": "poi_云谷寺景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_2"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_2": 1
+        },
+        "sequence_indices": [
+          1
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_黄山南大门",
+      "target": "poi_慈光阁景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_3"
+        ],
+        "route_support": {
+          "route_3": 1
+        },
+        "sequence_indices": [
+          1
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          1
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_云谷寺景观区",
+      "target": "poi_始信峰景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_2"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_2": 1
+        },
+        "sequence_indices": [
+          2
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_云谷寺景观区",
+      "target": "poi_黄山南大门",
+      "type": "sequence",
+      "properties": {
+        "support_count": 3,
+        "route_ids": [
+          "route_2",
+          "route_3",
+          "route_4"
+        ],
+        "route_support": {
+          "route_2": 1,
+          "route_3": 1,
+          "route_4": 1
+        },
+        "sequence_indices": [
+          7,
+          8,
+          9
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          8
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.5,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_始信峰景观区",
+      "target": "poi_狮子峰景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_2"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_2": 1
+        },
+        "sequence_indices": [
+          3
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_始信峰景观区",
+      "target": "poi_云谷寺景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_3",
+          "route_4"
+        ],
+        "route_support": {
+          "route_3": 1,
+          "route_4": 1
+        },
+        "sequence_indices": [
+          6,
+          7
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          7
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_天海景观区",
+      "target": "poi_玉屏楼景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_5"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_5": 1
+        },
+        "sequence_indices": [
+          5,
+          6
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道 / 玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_天海景观区",
+      "target": "poi_光明顶",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_2",
+          "route_3"
+        ],
+        "route_support": {
+          "route_2": 1,
+          "route_3": 1
+        },
+        "sequence_indices": [
+          4,
+          6
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          4
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_黄山北大门",
+      "target": "poi_松谷庵景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_4",
+          "route_5"
+        ],
+        "route_support": {
+          "route_4": 1,
+          "route_5": 1
+        },
+        "sequence_indices": [
+          1
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道 / 玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_狮子峰景观区",
+      "target": "poi_排云亭景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_2"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_2": 1
+        },
+        "sequence_indices": [
+          4
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_狮子峰景观区",
+      "target": "poi_始信峰景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_3"
+        ],
+        "route_support": {
+          "route_3": 1
+        },
+        "sequence_indices": [
+          6
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          6
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_慈光阁景观区",
+      "target": "poi_黄山南大门",
+      "type": "sequence",
+      "properties": {
+        "support_count": 2,
+        "route_ids": [
+          "route_1",
+          "route_5"
+        ],
+        "route_support": {
+          "route_1": 1,
+          "route_5": 1
+        },
+        "sequence_indices": [
+          7,
+          8
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 0,
+        "recommended_sequence_indices": [],
+        "is_recommended": false,
+        "transport": "云谷索道 / 玉屏索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.25,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_慈光阁景观区",
+      "target": "poi_玉屏楼景观区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "route_3"
+        ],
+        "route_support": {
+          "route_3": 1
+        },
+        "sequence_indices": [
+          2
+        ],
+        "recommended_route_id": "route_3",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          2
+        ],
+        "is_recommended": true,
+        "transport": "云谷索道",
+        "source_format": "multi_route_selection",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "condition_weather_光明顶下雨了",
+      "target": "poi_光明顶",
+      "type": "conditional",
+      "properties": {
+        "advice": "不要去,因为雾气太大会导致景观看不见",
+        "advice_samples": [
+          "不要去,因为雾气太大会导致景观看不见"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_transport_第一次玩从景区南大门云谷寺和乘索道上",
+      "target": "poi_南大门",
+      "type": "conditional",
+      "properties": {
+        "advice": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+        "advice_samples": [
+          "建议第一次玩从景区南大门云谷寺和乘索道上,省体力"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    }
+  ]
+}

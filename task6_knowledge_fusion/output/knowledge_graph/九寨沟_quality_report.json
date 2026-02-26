@@ -1,0 +1,96 @@
+{
+  "scenic_spot": "九寨沟",
+  "generated_at": "2026-02-26T14:46:07.939469",
+  "fusion_statistics": {
+    "official_poi_count": 16,
+    "visitor_poi_count": 16,
+    "fused_poi_count": 19,
+    "visitor_supplemented_count": 3,
+    "advice_matched_count": 2,
+    "advice_unmatched_count": 2
+  },
+  "route_normalization_report": {
+    "route_format": "structured_time_route",
+    "parsed_route_count": 15,
+    "normalized_route_count": 15,
+    "official_poi_count": 16,
+    "time_period_count": 5
+  },
+  "recommended_route": {
+    "route_id": "main",
+    "reason": "single_route",
+    "score": 1.0,
+    "route_scores": {
+      "main": 1.0
+    }
+  },
+  "visitor_supplemented": [
+    "则查洼沟",
+    "日则沟",
+    "树正沟"
+  ],
+  "visitor_supplemented_details": [
+    {
+      "poi": "则查洼沟",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "日则沟",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "树正沟",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    }
+  ],
+  "condition_cleaning_report": {
+    "input_advice_count": 2,
+    "output_advice_count": 2,
+    "dropped_count": 0,
+    "dropped_reasons": {},
+    "kept_other_subtypes": {},
+    "condition_node_count": 2
+  },
+  "graph_statistics": {
+    "total_nodes": 26,
+    "total_edges": 32,
+    "node_types": {
+      "poi": 19,
+      "time_period": 5,
+      "condition": 2
+    },
+    "edge_types": {
+      "sequence": 15,
+      "temporal": 15,
+      "conditional": 2
+    },
+    "condition_subtypes": {
+      "transport": 1,
+      "route": 1
+    }
+  },
+  "condition_advice_samples": [
+    {
+      "condition": "诺日朗中心站中转",
+      "condition_type": "transport",
+      "condition_subtype": "transport",
+      "poi": "诺日朗中心站",
+      "advice": "可以稍作休息",
+      "advice_id": "九寨沟_travelog_4_adv_0002"
+    },
+    {
+      "condition": "路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "原始森林",
+      "advice": "推荐路线:进门坐车直接到原始森林,然后一路向下游玩",
+      "advice_id": "九寨沟_travelog_2_adv_0001"
+    }
+  ]
+}

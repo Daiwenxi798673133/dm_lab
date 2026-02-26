@@ -1,0 +1,200 @@
+{
+  "scenic_spot": "故宫",
+  "generated_at": "2026-02-26T14:55:12.842611",
+  "fusion_statistics": {
+    "official_poi_count": 17,
+    "visitor_poi_count": 51,
+    "fused_poi_count": 21,
+    "visitor_supplemented_count": 4,
+    "advice_matched_count": 14,
+    "advice_unmatched_count": 6
+  },
+  "route_normalization_report": {
+    "route_format": "numbered_list",
+    "parsed_route_count": 17,
+    "normalized_route_count": 16,
+    "official_poi_count": 17,
+    "time_period_count": 0
+  },
+  "recommended_route": {
+    "route_id": "main",
+    "reason": "single_route",
+    "score": 1.0,
+    "route_scores": {
+      "main": 1.0
+    }
+  },
+  "visitor_supplemented": [
+    "珍宝馆",
+    "东华门",
+    "景山",
+    "钟表馆"
+  ],
+  "visitor_supplemented_details": [
+    {
+      "poi": "珍宝馆",
+      "doc_frequency": 5,
+      "score": 1.0,
+      "source": "visitor"
+    },
+    {
+      "poi": "东华门",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "景山",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "钟表馆",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    }
+  ],
+  "condition_cleaning_report": {
+    "input_advice_count": 14,
+    "output_advice_count": 14,
+    "dropped_count": 0,
+    "dropped_reasons": {},
+    "kept_other_subtypes": {
+      "visit_scope": 2
+    },
+    "condition_node_count": 3
+  },
+  "graph_statistics": {
+    "total_nodes": 24,
+    "total_edges": 30,
+    "node_types": {
+      "poi": 21,
+      "condition": 3
+    },
+    "edge_types": {
+      "sequence": 16,
+      "conditional": 14
+    },
+    "condition_subtypes": {
+      "route": 1,
+      "ticketing": 1,
+      "visit_scope": 1
+    }
+  },
+  "condition_advice_samples": [
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "太和门",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "珍宝馆和钟表馆门票各10元",
+      "condition_type": "ticketing",
+      "condition_subtype": "ticketing",
+      "poi": "钟表馆",
+      "advice": "建议一并购买",
+      "advice_id": "故宫_travelog_2_adv_0001"
+    },
+    {
+      "condition": "看珍宝馆、钟表馆和其他的特展",
+      "condition_type": "other",
+      "condition_subtype": "visit_scope",
+      "poi": "钟表馆",
+      "advice": "可以进去之后在对应的馆门口买票",
+      "advice_id": "故宫_travelog_4_adv_0002"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "太和殿",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "乾清宫",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "中和殿",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "保和殿",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "午门",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "神武门",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "交泰殿",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "珍宝馆和钟表馆门票各10元",
+      "condition_type": "ticketing",
+      "condition_subtype": "ticketing",
+      "poi": "珍宝馆",
+      "advice": "建议一并购买",
+      "advice_id": "故宫_travelog_2_adv_0001"
+    },
+    {
+      "condition": "看珍宝馆、钟表馆和其他的特展",
+      "condition_type": "other",
+      "condition_subtype": "visit_scope",
+      "poi": "珍宝馆",
+      "advice": "可以进去之后在对应的馆门口买票",
+      "advice_id": "故宫_travelog_4_adv_0002"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "坤宁宫",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    },
+    {
+      "condition": "2小时快速游路线",
+      "condition_type": "route",
+      "condition_subtype": "route",
+      "poi": "御花园",
+      "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+      "advice_id": "故宫_travelog_2_adv_0004"
+    }
+  ]
+}

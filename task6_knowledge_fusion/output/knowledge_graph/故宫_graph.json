@@ -1,0 +1,999 @@
+{
+  "metadata": {
+    "scenic_spot": "故宫",
+    "generated_at": "2026-02-26T14:55:12.841333",
+    "graph_stats": {
+      "total_nodes": 24,
+      "total_edges": 30
+    },
+    "condition_cleaning_report": {
+      "input_advice_count": 14,
+      "output_advice_count": 14,
+      "dropped_count": 0,
+      "dropped_reasons": {},
+      "kept_other_subtypes": {
+        "visit_scope": 2
+      },
+      "condition_node_count": 3
+    }
+  },
+  "nodes": [
+    {
+      "id": "poi_西六宫区",
+      "type": "poi",
+      "label": "西六宫区",
+      "properties": {
+        "display_label": "西六宫区",
+        "source": "official",
+        "weight": 0.94,
+        "importance_score": 0.94,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_养心殿",
+      "type": "poi",
+      "label": "养心殿",
+      "properties": {
+        "display_label": "养心殿",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_太和门",
+      "type": "poi",
+      "label": "太和门",
+      "properties": {
+        "display_label": "太和门",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_奉先殿",
+      "type": "poi",
+      "label": "奉先殿",
+      "properties": {
+        "display_label": "奉先殿",
+        "source": "official",
+        "weight": 0.76,
+        "importance_score": 0.76,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_神武门",
+      "type": "poi",
+      "label": "神武门",
+      "properties": {
+        "display_label": "神武门",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_太和殿",
+      "type": "poi",
+      "label": "太和殿",
+      "properties": {
+        "display_label": "太和殿",
+        "source": "official",
+        "weight": 1.0,
+        "importance_score": 1.0,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_武英殿",
+      "type": "poi",
+      "label": "武英殿",
+      "properties": {
+        "display_label": "武英殿",
+        "source": "official",
+        "weight": 0.76,
+        "importance_score": 0.76,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_中和殿",
+      "type": "poi",
+      "label": "中和殿",
+      "properties": {
+        "display_label": "中和殿",
+        "source": "official",
+        "weight": 1.0,
+        "importance_score": 1.0,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_保和殿",
+      "type": "poi",
+      "label": "保和殿",
+      "properties": {
+        "display_label": "保和殿",
+        "source": "official",
+        "weight": 1.0,
+        "importance_score": 1.0,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_交泰殿",
+      "type": "poi",
+      "label": "交泰殿",
+      "properties": {
+        "display_label": "交泰殿",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_乾清宫",
+      "type": "poi",
+      "label": "乾清宫",
+      "properties": {
+        "display_label": "乾清宫",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_午门",
+      "type": "poi",
+      "label": "午门",
+      "properties": {
+        "display_label": "午门",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_东六宫区",
+      "type": "poi",
+      "label": "东六宫区",
+      "properties": {
+        "display_label": "东六宫区",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_文华殿",
+      "type": "poi",
+      "label": "文华殿",
+      "properties": {
+        "display_label": "文华殿",
+        "source": "official",
+        "weight": 0.82,
+        "importance_score": 0.82,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_坤宁宫",
+      "type": "poi",
+      "label": "坤宁宫",
+      "properties": {
+        "display_label": "坤宁宫",
+        "source": "official",
+        "weight": 0.8799999999999999,
+        "importance_score": 0.8799999999999999,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_宁寿宫区",
+      "type": "poi",
+      "label": "宁寿宫区",
+      "properties": {
+        "display_label": "宁寿宫区",
+        "source": "official",
+        "weight": 0.76,
+        "importance_score": 0.76,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_御花园",
+      "type": "poi",
+      "label": "御花园",
+      "properties": {
+        "display_label": "御花园",
+        "source": "official",
+        "weight": 0.94,
+        "importance_score": 0.94,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_珍宝馆",
+      "type": "poi",
+      "label": "珍宝馆",
+      "properties": {
+        "display_label": "珍宝馆",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_东华门",
+      "type": "poi",
+      "label": "东华门",
+      "properties": {
+        "display_label": "东华门",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_景山",
+      "type": "poi",
+      "label": "景山",
+      "properties": {
+        "display_label": "景山",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "poi_钟表馆",
+      "type": "poi",
+      "label": "钟表馆",
+      "properties": {
+        "display_label": "钟表馆",
+        "source": "visitor",
+        "weight": 0.45,
+        "importance_score": 0.45,
+        "original_type": "poi"
+      }
+    },
+    {
+      "id": "condition_route_2小时快速游路线",
+      "type": "condition",
+      "label": "2小时快速游路线",
+      "properties": {
+        "display_label": "2小时快速游路线",
+        "raw_condition": "2小时快速游路线",
+        "condition_type": "route",
+        "condition_type_label": "路线条件",
+        "condition_subtype": "route",
+        "confidence": 0.98,
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "connected_pois": [
+          "中和殿",
+          "乾清宫",
+          "交泰殿",
+          "保和殿",
+          "午门",
+          "坤宁宫",
+          "太和殿",
+          "太和门",
+          "御花园",
+          "神武门"
+        ],
+        "weight": 1.6,
+        "importance_score": 1.2,
+        "original_type": "condition"
+      }
+    },
+    {
+      "id": "condition_ticketing_珍宝馆和钟表馆门票各10元",
+      "type": "condition",
+      "label": "珍宝馆和钟表馆门票各10…",
+      "properties": {
+        "display_label": "珍宝馆和钟表馆门票各10…",
+        "raw_condition": "珍宝馆和钟表馆门票各10元",
+        "condition_type": "ticketing",
+        "condition_type_label": "票务条件",
+        "condition_subtype": "ticketing",
+        "confidence": 0.98,
+        "advice_samples": [
+          "建议一并购买"
+        ],
+        "connected_pois": [
+          "珍宝馆",
+          "钟表馆"
+        ],
+        "weight": 1.1,
+        "importance_score": 0.76,
+        "original_type": "condition"
+      }
+    },
+    {
+      "id": "condition_other_看珍宝馆_钟表馆和其他的特展",
+      "type": "condition",
+      "label": "看珍宝馆、钟表馆和其他的…",
+      "properties": {
+        "display_label": "看珍宝馆、钟表馆和其他的…",
+        "raw_condition": "看珍宝馆、钟表馆和其他的特展",
+        "condition_type": "other",
+        "condition_type_label": "其他条件",
+        "condition_subtype": "visit_scope",
+        "confidence": 0.7,
+        "advice_samples": [
+          "可以进去之后在对应的馆门口买票"
+        ],
+        "connected_pois": [
+          "珍宝馆",
+          "钟表馆"
+        ],
+        "weight": 1.1,
+        "importance_score": 0.76,
+        "original_type": "condition"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "poi_西六宫区",
+      "target": "poi_御花园",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          12
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          12
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_养心殿",
+      "target": "poi_西六宫区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          11
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          11
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_太和门",
+      "target": "poi_太和殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          4
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          4
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_奉先殿",
+      "target": "poi_宁寿宫区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          15
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          15
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_太和殿",
+      "target": "poi_中和殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          5
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          5
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_武英殿",
+      "target": "poi_文华殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          2
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          2
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_中和殿",
+      "target": "poi_保和殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          6
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          6
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_保和殿",
+      "target": "poi_乾清宫",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          7
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          7
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_交泰殿",
+      "target": "poi_坤宁宫",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          9
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          9
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_乾清宫",
+      "target": "poi_交泰殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          8
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          8
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_午门",
+      "target": "poi_武英殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          1
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          1
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_东六宫区",
+      "target": "poi_奉先殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          14
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          14
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_文华殿",
+      "target": "poi_太和门",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          3
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          3
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_坤宁宫",
+      "target": "poi_养心殿",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          10
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          10
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_宁寿宫区",
+      "target": "poi_神武门",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          16
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          16
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "poi_御花园",
+      "target": "poi_东六宫区",
+      "type": "sequence",
+      "properties": {
+        "support_count": 1,
+        "route_ids": [
+          "main"
+        ],
+        "route_support": {
+          "main": 1
+        },
+        "sequence_indices": [
+          13
+        ],
+        "recommended_route_id": "main",
+        "recommended_support_count": 1,
+        "recommended_sequence_indices": [
+          13
+        ],
+        "is_recommended": true,
+        "transport": "",
+        "source_format": "numbered_list",
+        "time_windows": [],
+        "durations": [],
+        "weight": 1.0,
+        "importance_score": 1.0
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_太和门",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_太和殿",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_乾清宫",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_中和殿",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_保和殿",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_午门",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_神武门",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_交泰殿",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_坤宁宫",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_route_2小时快速游路线",
+      "target": "poi_御花园",
+      "type": "conditional",
+      "properties": {
+        "advice": "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门",
+        "advice_samples": [
+          "推荐-2小时快速游路线:午门→太和门→弘义阁→太和殿→中和殿→保和殿→乾清门→乾清宫→交泰殿→坤宁宫→御花园→神武门"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_ticketing_珍宝馆和钟表馆门票各10元",
+      "target": "poi_钟表馆",
+      "type": "conditional",
+      "properties": {
+        "advice": "建议一并购买",
+        "advice_samples": [
+          "建议一并购买"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_ticketing_珍宝馆和钟表馆门票各10元",
+      "target": "poi_珍宝馆",
+      "type": "conditional",
+      "properties": {
+        "advice": "建议一并购买",
+        "advice_samples": [
+          "建议一并购买"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_other_看珍宝馆_钟表馆和其他的特展",
+      "target": "poi_钟表馆",
+      "type": "conditional",
+      "properties": {
+        "advice": "可以进去之后在对应的馆门口买票",
+        "advice_samples": [
+          "可以进去之后在对应的馆门口买票"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    },
+    {
+      "source": "condition_other_看珍宝馆_钟表馆和其他的特展",
+      "target": "poi_珍宝馆",
+      "type": "conditional",
+      "properties": {
+        "advice": "可以进去之后在对应的馆门口买票",
+        "advice_samples": [
+          "可以进去之后在对应的馆门口买票"
+        ],
+        "support_count": 1,
+        "weight": 0.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "scenic_spot": "黄山",
+  "generated_at": "2026-02-26T14:46:08.559195",
+  "fusion_statistics": {
+    "official_poi_count": 12,
+    "visitor_poi_count": 41,
+    "fused_poi_count": 20,
+    "visitor_supplemented_count": 8,
+    "advice_matched_count": 2,
+    "advice_unmatched_count": 4
+  },
+  "route_normalization_report": {
+    "route_format": "multi_route_selection",
+    "parsed_route_count": 5,
+    "normalized_route_count": 39,
+    "official_poi_count": 12,
+    "time_period_count": 0
+  },
+  "recommended_route": {
+    "route_id": "route_3",
+    "reason": "visitor_coverage_score",
+    "score": 20.0,
+    "route_scores": {
+      "route_1": 18.5,
+      "route_2": 17.25,
+      "route_3": 20.0,
+      "route_4": 13.75,
+      "route_5": 14.5
+    }
+  },
+  "visitor_supplemented": [
+    "南大门",
+    "天都峰",
+    "北海",
+    "西海",
+    "鳌鱼峰",
+    "云海",
+    "云谷索道",
+    "半山"
+  ],
+  "visitor_supplemented_details": [
+    {
+      "poi": "南大门",
+      "doc_frequency": 4,
+      "score": 0.87,
+      "source": "visitor"
+    },
+    {
+      "poi": "天都峰",
+      "doc_frequency": 4,
+      "score": 0.87,
+      "source": "visitor"
+    },
+    {
+      "poi": "北海",
+      "doc_frequency": 3,
+      "score": 0.74,
+      "source": "visitor"
+    },
+    {
+      "poi": "西海",
+      "doc_frequency": 3,
+      "score": 0.74,
+      "source": "visitor"
+    },
+    {
+      "poi": "鳌鱼峰",
+      "doc_frequency": 3,
+      "score": 0.74,
+      "source": "visitor"
+    },
+    {
+      "poi": "云海",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "云谷索道",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    },
+    {
+      "poi": "半山",
+      "doc_frequency": 2,
+      "score": 0.61,
+      "source": "visitor"
+    }
+  ],
+  "condition_cleaning_report": {
+    "input_advice_count": 2,
+    "output_advice_count": 2,
+    "dropped_count": 0,
+    "dropped_reasons": {},
+    "kept_other_subtypes": {},
+    "condition_node_count": 2
+  },
+  "graph_statistics": {
+    "total_nodes": 22,
+    "total_edges": 25,
+    "node_types": {
+      "poi": 20,
+      "condition": 2
+    },
+    "edge_types": {
+      "sequence": 23,
+      "conditional": 2
+    },
+    "condition_subtypes": {
+      "weather": 1,
+      "transport": 1
+    }
+  },
+  "condition_advice_samples": [
+    {
+      "condition": "光明顶下雨了",
+      "condition_type": "weather",
+      "condition_subtype": "weather",
+      "poi": "光明顶",
+      "advice": "不要去,因为雾气太大会导致景观看不见",
+      "advice_id": "黄山_travelog_2_adv_0003"
+    },
+    {
+      "condition": "第一次玩从景区南大门云谷寺和乘索道上",
+      "condition_type": "transport",
+      "condition_subtype": "transport",
+      "poi": "南大门",
+      "advice": "建议第一次玩从景区南大门云谷寺和乘索道上,省体力",
+      "advice_id": "黄山_travelog_2_adv_0001"
+    }
+  ]
+}
