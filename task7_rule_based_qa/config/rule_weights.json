@@ -1,0 +1,12 @@
+{
+  "tier_base": {
+    "tier1": 80,
+    "tier2": 60,
+    "tier3": 45,
+    "tier4": 30
+  },
+  "keyword_overlap": 6,
+  "confidence_bonus": 18,
+  "support_count_bonus": 3,
+  "recommended_route_bonus": 5
+}
