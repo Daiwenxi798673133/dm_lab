@@ -1,50 +1,71 @@
-/*
- * Copyright 2024 CloudWeGo Authors
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package main
 
 import (
 	"context"
-	"log"
+	"fmt"
+	"io"
 
-	"github.com/joho/godotenv"
+	"github.com/cloudwego/eino/components/tool"
+	"github.com/cloudwego/eino/compose"
+	"github.com/cloudwego/eino/flow/agent/react"
+	"github.com/cloudwego/eino/schema"
 )
 
-func main() {
-	// 加载 .env 文件
-	godotenv.Load()
+func createTravelAgent(ctx context.Context, kgService *KnowledgeGraphService) (*react.Agent, error) {
+	chatModel, err := createOpenAIChatModel(ctx)
+	if err != nil {
+		return nil, err
+	}
 
-	ctx := context.Background()
+	kgTool, err := newKnowledgeGraphTool(kgService)
+	if err != nil {
+		return nil, fmt.Errorf("create knowledge graph tool failed: %w", err)
+	}
 
-	// 使用模版创建messages
-	log.Printf("===create messages===\n")
-	messages := createMessagesFromTemplate()
-	log.Printf("messages: %+v\n\n", messages)
+	agent, err := react.NewAgent(ctx, &react.AgentConfig{
+		ToolCallingModel: chatModel,
+		MaxStep:          20,
+		ToolsConfig: compose.ToolsNodeConfig{
+			Tools: []tool.BaseTool{kgTool},
+		},
+		// Some models output plain text before function call chunks in stream mode.
+		// The default checker only inspects the first non-empty chunk and may miss tool calls.
+		StreamToolCallChecker: fullStreamToolCallChecker,
+		MessageModifier: func(_ context.Context, input []*schema.Message) []*schema.Message {
+			output := make([]*schema.Message, 0, len(input)+1)
+			output = append(output, schema.SystemMessage(getTravelSystemPrompt()))
+			output = append(output, input...)
+			return output
+		},
+	})
+	if err != nil {
+		return nil, fmt.Errorf("create react agent failed: %w", err)
+	}
 
-	// 创建llm
-	log.Printf("===create llm===\n")
-	cm := createOpenAIChatModel(ctx)
-	// cm := createOllamaChatModel(ctx)
-	log.Printf("create llm success\n\n")
+	return agent, nil
+}
 
-	log.Printf("===llm generate===\n")
-	result := generate(ctx, cm, messages)
-	log.Printf("result: %+v\n\n", result)
+func streamTravelPlan(ctx context.Context, agent *react.Agent, history []*schema.Message, userMessage string) (*schema.StreamReader[*schema.Message], error) {
+	messages := make([]*schema.Message, 0, len(history)+1)
+	messages = append(messages, history...)
+	messages = append(messages, schema.UserMessage(userMessage))
+	return agent.Stream(ctx, messages)
+}
 
-	log.Printf("===llm stream generate===\n")
-	streamResult := stream(ctx, cm, messages)
-	reportStream(streamResult)
+func fullStreamToolCallChecker(_ context.Context, sr *schema.StreamReader[*schema.Message]) (bool, error) {
+	defer sr.Close()
+
+	for {
+		msg, err := sr.Recv()
+		if err == io.EOF {
+			return false, nil
+		}
+		if err != nil {
+			return false, err
+		}
+
+		if len(msg.ToolCalls) > 0 {
+			return true, nil
+		}
+	}
 }

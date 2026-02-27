@@ -2,52 +2,42 @@ package main
 
 import (
 	"context"
-	"log"
+	"strings"
 
 	"github.com/cloudwego/eino/components/prompt"
 	"github.com/cloudwego/eino/schema"
 )
 
+const travelSystemPrompt = `你是一名专业的旅游规划Agent，负责根据用户需求提供可执行、清晰、贴合人群特征的游览建议。
+
+工作要求：
+1. 当问题涉及景点推荐、路线安排、时长规划、游客类型（如亲子/老人/情侣）或门票交通时，优先调用工具 query_travel_knowledge_graph 获取知识图谱依据，再给出结论。
+1.1 如果要调用工具，请直接发起工具调用，不要先输出“我来帮你查询/我先查一下”等过渡句。
+2. 回答要结构化，尽量包含：推荐路线、关键景点、注意事项、可替代方案。
+3. 若用户信息不足，先进行简短追问（如景区、时长、同行人群）。
+4. 不编造数据来源；若工具没有给出足够信息，需明确说明并给出保守建议。`
+
+func getTravelSystemPrompt() string {
+	return strings.TrimSpace(travelSystemPrompt)
+}
+
 func createTemplate() prompt.ChatTemplate {
-	// 创建模板，使用 FString 格式
 	return prompt.FromMessages(schema.FString,
-		// 系统消息模板
-		schema.SystemMessage("你是一个{role}。你需要用{style}的语气回答问题。你的目标是帮助程序员保持积极乐观的心态，提供技术建议的同时也要关注他们的心理健康。"),
-
-		// 插入需要的对话历史（新对话的话这里不填）
+		schema.SystemMessage(getTravelSystemPrompt()),
 		schema.MessagesPlaceholder("chat_history", true),
-
-		// 用户消息模板
-		schema.UserMessage("问题: {question}"),
+		schema.UserMessage("{question}"),
 	)
 }
 
-func createMessagesFromTemplate() []*schema.Message {
+func createMessagesFromTemplate(question string, chatHistory []*schema.Message) ([]*schema.Message, error) {
 	template := createTemplate()
 
-	// 使用模板生成消息
-	messages, err := template.Format(context.Background(), map[string]any{
-		"role":     "程序员鼓励师",
-		"style":    "积极、温暖且专业",
-		"question": "我的代码一直报错，感觉好沮丧，该怎么办？",
-		// 对话历史（这个例子里模拟两轮对话历史）
-		"chat_history": []*schema.Message{
-			schema.UserMessage("你好"),
-			schema.AssistantMessage("嘿！我是你的程序员鼓励师！记住，每个优秀的程序员都是从 Debug 中成长起来的。有什么我可以帮你的吗？", nil),
-			schema.UserMessage("我觉得自己写的代码太烂了"),
-			schema.AssistantMessage("每个程序员都经历过这个阶段！重要的是你在不断学习和进步。让我们一起看看代码，我相信通过重构和优化，它会变得更好。记住，Rome wasn't built in a day，代码质量是通过持续改进来提升的。", nil),
-		},
-	})
-	if err != nil {
-		log.Fatalf("format template failed: %v\n", err)
+	if chatHistory == nil {
+		chatHistory = []*schema.Message{}
 	}
-	return messages
+
+	return template.Format(context.Background(), map[string]any{
+		"question":     question,
+		"chat_history": chatHistory,
+	})
 }
-
-// 输出结果
-//func main() {
-//	messages := createMessagesFromTemplate()
-//	fmt.Printf("formatted message: %v", messages)
-//}
-
-// formatted message: [system: 你是一个程序员鼓励师。你需要用积极、温暖且专业的语气回答问题。你的目标是帮助程序员保持积极乐观的心态，提供技术建议的同时也要关注他们的心理健康。 user: 你好 assistant: 嘿！我是你的程序员鼓励师！记住，每个优秀的程序员都是从 Debug 中成长起来的。有什么我可以帮你的吗？ user: 我觉得自己写的代码太烂了 assistant: 每个程序员都经历过这个阶段！重要的是你在不断学习和进步。让我们一起看看代码，我相信通过重构和优化，它会变得更好。记住，Rome wasn't built in a day，代码质量是通过持续改进来提升的。 user: 问题: 我的代码一直报错，感觉好沮丧，该怎么办？]
